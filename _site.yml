@@ -1,11 +1,13 @@
-name: "MyLabJournal"
+name: "Seyma Kalay, Ph.D."
 navbar:
-  title: "MyLabJournal"
+  title: "Seyma Kalay, Ph.D."
   left:
     - text: "Home"
       href: index.html
+      icon: fa-home
     - text: "Journal"
       href: Journal.html
+      icon: fa-book
     - text: "Links"
       href: Links.html
 output_dir: "docs"
