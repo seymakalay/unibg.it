@@ -60,70 +60,89 @@ https://github.com/ionic-team/ionicons
 
 
 
-# Education 
-     
-**Joint PhD in Applied Economics and Management (AEM)**\
-University of Bergamo & Pavia (Italy), Sept 2017 - Feb 2022
 
-**Master in Finance**\
-University of Siena (Italy),  Nov 2013 - June 2016
+# Laurea
+     
+**Doctor of Philosophy in Applied Economics and Management (AEM)**\
+Dipartimento di Scienze Economiche, Università degli Studi di Bergamo (Italia), Sept 2017 - Feb 2022
+
+**Laurea Magistrale in Finanza**\
+Dipartimento di Scienze Economiche e Statistiche, Università degli Studi di Siena (Italia),  Nov 2013 - June 2016
 
 **Certificate in Masters of Business Administration Program**\
-University of Auburn (USA), Spring 2011 - Fall 2012\
+College of Business, University of Auburn (USA), Primavera 2011 - Autunno 2012\
 
-**Bachelor in Astronomy and Space Science**\
-University of Istanbul (Turkey), Fall 2006 - Spring 2010                                                                             
+**Laurea Triennale in Astronomia e Scienze Spaziali**\
+Dipartimento di Scienze, Università degli Studi di Istanbul (Turchia)        
 
-# Experiences 
+# Tesi di Dottorato
 
-**Researcher** - Statistics,\
-University of Bergamo & Pavia (Italy), Sept 2017- Feb 2022.\
-- Implementing data manipulations, applying machine learning algorithms, and creating
-interactive user faces^[Please see at: <a href="https://github.com/seymakalay" target="_blank">https://github.com/seymakalay</a> ].
+**Accesso al Credito, Utilizzando Tecniche di Apprendimento Automatico**\
+Implementazione di manipolazioni di dati, applicazione modelli predittivi con algoritmi avanzati di
+apprendimento automatico e creazione di applicazioni interattive.
+
+
+# Tesi di Laurea di Magistrale
+
+**Pesi di Portafoglio Ottimali Utilizzando la Teoria del Portafoglio di Markowitz.**\
+Trovare i pesi ottimali del portafoglio azionario, utilizzando sia la matrice di covarianza che quella di
+contrazione.
+
+
+# Esperienze
+
+**Ricercatrice** - Statistiche,\
+Dipartimento di Scienze Economiche, Università degli Studi di Bergamo (Italia), Sept 2017- Feb 2022.\
+- Implementazione di manipolazioni di dati, applicazione di tecniche di machine learning, e creazione di
+applicazioni interattive^[si prega di consultare i repository GitHub su: <a href="https://github.com/seymakalay" target="_blank">https://github.com/seymakalay</a> ].
 
  <!--\1 application^[Please see at: https://github.com/seymakalay].\      
  to find out the probability of credit default\1-->
 
-**Intern** - Portfolio,\
-Ziraat Portfolio (Turkey), Jan 2016 - Sept 2016.\
-- Observed equity and bond market, familiar with the behavioral finance, created a statistical model to maximize the portfolio’s return and proved the model efficiency by tracing the data.\
+**Internship** - Portafoglio,\
+Ziraat Portafoglio, Istanbul (Turchia), Jan 2016 - Sept 2016.\
+- Osservazione del mercato azionario e obbligazionario e creazione di un modello statistico per la massimalizzazione del rendimento e dimostrazione dell’efficenza del modello per mezzo della monitorizzazione
+dei dati.\
 
-**Intern** - Portfolio,\ 
-Invest-AZ (Turkey), Nov 2015 - Dec 2015.\
-- To analyze the companies by looking at their income statements 
-and balance sheets to make sure it is beneficial to invest in those companies.
-
-**Intern** - Accounted,\
-Varkan Group (Turkey), Sept 2012 - Dec 2012.\
-- Have been effectively responsible of recording accounting cycle 
-and kept tracking consistence balances on both suppliers and purchasers on the company’s system.\
-
-**Part time** - Real Estate\
-Emlak Ada (Turkey), Jun 2007 - Jan 2010.\
-- Was actively involved in the marketing and communications of the firm. Drafted contracts, scheduled meetings, handled negotiations, updated company website, collaborated with other real estate agencies, generated new solutions
-and conducted research on customer needs and preferences.
+**Internship** - Portafoglio,\ 
+Invest-AZ, Istanbul (Turchia), Nov 2015 - Dec 2015.\
+- Analisi delle società tramite l’osservazione dei conti e dei bilanci per comprendere il vantaggio ricavato
+dall’investire nelle stesse.
 
 
-# Skills and Competencies 
+**Internship** - Contabilità,\
+Varkan Group, Istanbul (Turchia), Sept 2012 - Dec 2012.\
+- Responsabile della registrazione del ciclo contabile attraverso il controllo dei saldi coerenti sia dei fornitori
+che degli acquirenti.\
+
+**Part time** -  Immobiliare,\
+Emlak Ada, Istanbul (Turchia), Jun 2007 - Jan 2010.\
+- Coinvolto nel marketing e nella comunicazione dell’azienda. Redazione di contratti, riunioni programmate,
+trattative gestite, aggiornamento sito web aziendale, collaborazione con altre agenzie immobiliari,
+generazione di nuove soluzioni e ricerca sulle esigenze e preferenze dei clienti.
+
+
+
+# Abilitá e Competenze
 <!--\1  **Languages:** Native in Turkish, advance in English, intermediate in Italian, beginner in Spanish.\     \1-->
 <ul class="list-inline">
-   <li> <u>**Languages:**</u>  </li>
-   <li>&bull; Native in Turkish </li>
-   <li>&bull; Advance in English</li>
-   <li>&bull; Intermediate in Italian</li>
+   <li> <u>**Lingue:**</u>  </li>
+   <li>&bull; Nativo in Turco </li>
+   <li>&bull; Ottimo in Inglese </li>
+   <li>&bull; Intermedio in Italiano </li>
 </ul>
 <ul class="list-inline">
-   <li> <u>**Computer Skills:** </u>  </li>
-   <li> <u>*Competitive in:*</u>  </li>
+   <li> <u>**Computer:** </u>  </li>
+   <li> <u>*Ottima conoscenza di:*</u>  </li>
    <li>&bull; R </li>
    <li>&bull; Shiny Applications </li>
    <li>&bull;  LaTeX </li>
    <li>&bull; Microsoft Office </li>
-   <li> <u>*Intermediate in:*</u>  </li>
+   <li> <u>*Conoscenza intermedia di:*</u>  </li>
     <li>&bull; HTML </li>
     <li>&bull; SQL </li>
     <li>&bull; Tableau </li>
-   <li> <u>*New in:*</u>  </li>
+   <li> <u>*Conoscenza base di:*</u>  </li>
    <li>&bull; Python </li>
    <li>&bull; VBA </li>
    <li>&bull; Java </li>
@@ -133,16 +152,11 @@ and conducted research on customer needs and preferences.
 <!--\1   <u>*New in:* </u> Html, Python, SQL, Java.\1-->
 <ul class="list-inline">
 <li> <u> **Soft Skills:** </u>  </li>
-   <li>&bull; Time Management </li>
+   <li>&bull; Gestione del tempo </li>
    <li>&bull; Problem Solving </li>
-   <li>&bull; Reporting Skills </li>
+   <li>&bull; Competenze di reporting  </li>
    <li>&bull; Multitasking </li>
 </ul>
-
-<!--\1 
-Creative, analytic thinker, problem solver, good at teamwork, interpersonal skills, determined, disciplined, accountable, highly motivated, responsible, strong work ethics, positive mindset, adaptable, rapid learning capability.
-\1-->
-
 
 
 
@@ -150,42 +164,45 @@ Creative, analytic thinker, problem solver, good at teamwork, interpersonal skil
 
 <u>**Interactive User Interfaces**</u>
 <li><u><a href="https://seymakalay87.shinyapps.io/Mapapp/" target="_blank">**MappApp:**</a></u> 
-Conducting  an empirical study  <!--\1 based on anti money laundering, \1-->
-using both supervised and unsupervised machine learning algorithms.</li>
+Condurre uno studio empirico utilizzando algoritmi di machine learning sia supervisionati
+che non supervisionati. </li>
 
 <li><u><a href="https://seymakalay87.shinyapps.io/biblio/" target="_blank"> **Biblio:** </a></u> 
-Reproducible bibliometric literature review.</li>
+Revisione della letteratura bibliometrica riproducibile.</li>
 
 <li><u><a href="https://github.com/seymakalay/tp3" target="_blank"> 
 **Tp3:**</a></u>
-Conducting unsupervised machine learning algorithms (Tp3: runs from console). </li>
+ Condurre algoritmi di machine learning senza supervisione (Tp3: viene eseguito dalla console).</li>
 
 <u>**Viz**</u>
 <li><u><a href="https://public.tableau.com/app/profile/seyma.kalay" target="_blank">**Tableau:**</a></u> 
-Conducting data visualization using Tableau Destop.</li>
+Condurre la visualizzazione dei dati utilizzando Tableau Destop.</li>
 
 
 <u>**HTML**</u>
 <li><u><a href="https://seymakalay.github.io/TableauViz/index.html" target="_blank">**TableauViz**</a></u> 
-Combining Tableau, Rshiny, and HTML.</li>
-
-
+Combinare Tableau, Rshiny, e HTML.</li>
 
 
 
 <u>**R Software Packages**</u> 
+
 <li><u> <a href="https://github.com/seymakalay/pomodoro" target="_blank"> **CRAN** *Pomodoro:* </a></u>
-Comparison of predictive power. This package is intended to make
-modeling and comparing the predictive powers easier based on the data-splits and all data set.</li> 
+Confronta dei modelli di potere predittivo per edificio modelli predittivi e di apprendimento
+automatico con algoritmi quali alberi decisionali, metodi Boosting/Ensemble/Bagging/Radom Forest e
+quali linear, metodi Generalized linear & Multinomial Logistic Models. In più, questo pacchetto ha lo
+scopo di semplificare la modellazione e il confronto dei poteri predittivi in base alle suddivisioni dei dati
+e a tutti i set di dati.</li> 
+
 <li><u> <a href="https://github.com/seymakalay/pepe" target="_blank"> **CRAN** *Pepe:* </a></u>
-Is intended to make descriptive statistics easier. </li>
+Ha lo scopo di semplificare le statistiche descrittive.</li>
 <li> **CRAN** *Oregano:* 
-Is intended to create Shiny Modules to make the visualization easier,
-expected release late 2023. </li>
+Ha lo scopo di creare "Shiny Apps" per semplificare la visualizzazione (rilascio previsto per
+la fine del 2023). </li>
 
 <u>**GitHub**</u>
 <li><u><a href="https://github.com/seymakalay" target="_blank">**Repositories:**</a></u> 
- Current Github repositories.</li>
+Repository Github attuali.</li>
 
 <u>**Publications**</u> 
 <li><u><a href="./pomodoro.pdf" target="_blank">  **Pomodoro:** </a></u> 
@@ -200,7 +217,7 @@ Data Manipulation. </li>
 
 <!--\1  \( \LaTeX \)  \1--> 
 
-# Awards and Honors 
+# Premi e Riconoscimenti
 
 2017- 2022, UNIBG PhD Fund.\
 DSU - Toscana, 2013 - 2016.\
@@ -209,9 +226,9 @@ Turkish Women Community Scholarship, 2007 - 2010.\
 Yapi Kredi Bank Scholarship, 2006 - 2010.
 
 
-# References
+# Referenze
 
-Reference letters will be provided upon [request](mailto:seymakalay@hotmail.com).
+Verranno fornite lettere di referenza su  [richiesta](mailto:seymakalay@hotmail.com).
 
 <!--\1
 **Asso. Prof.:** Daniel Felix Ahelegbey; University of Pavia; Associate Professor; dfkahey@hotmail.com\

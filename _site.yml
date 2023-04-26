@@ -5,9 +5,67 @@ navbar:
     - text: "Home"
       href: index.html
       icon: fa-home
-    - text: "Journal"
+    - text: "CV"
       href: Journal.html
       icon: fa-book
-    - text: "Links"
-      href: Links.html
+    - text: "Packages"
+      icon: fa-box
+      menu:
+      - text: "Machine Learning"
+      - text: "pomodoro"
+        #icon: fa-tomato
+        href: https://github.com/seymakalay/pomodoro
+      - text: "------------"  
+      - text: "Data Visualization"  
+      - text: "pepe" 
+        #icon: <i class="fa-solid fa-pepper-hot"></i>
+        href: https://github.com/seymakalay/pepe
+    - text: "Tutorials"
+      icon:  fa-rocket
+      menu:
+      - text: "Machine Learning"
+      - text: "pomodoro"
+        href: pomodoro.tutorial.html
+      - text: "------------"  
+      - text: "Data Visualization"  
+      - text: "pepe"
+        href: pepe.tutorial.html
+    - text: "Shiny"
+      icon: fa-gem
+      menu:
+      - text: "Mapping"
+      - text: "Simple Map"
+        href: MapApp.html
+      - text: "------------" 
+      - text: "Visualization"
+      - text: "Plot"
+        href: VisualApp.html  
+    - text: "Tableau"
+      href: tableau.html 
+      icon: fa-star
+  right:
+    - href: https://github.com/seymakalay
+      icon: fa-github 
+    - href: https://stackoverflow.com/users/9209203/seyma-kalay?tab=profile
+      icon: fa-stack-overflow
+    - text: ""
+      icon: fa-download
+      menu:
+      - text: "CVs"
+      - text: "English CV"
+        href: ./SK_Cover.pdf
+      - text: "Italian CV"
+        href: ./SK_Cover_it.pdf  
+      - text: "------------" 
+      - text: "Docs"
+      - text: "Certificates"  
+        href: ./images/Certificates.pdf  
+    - href: https://www.linkedin.com/in/seyma-kalay-3315345b/
+      icon: fab fa-linkedin fa-lg  
 output_dir: "docs"
+
+
+
+
+
+ 
