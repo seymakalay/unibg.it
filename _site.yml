@@ -8,36 +8,36 @@ navbar:
     - text: "CV"
       href: Journal.html
       icon: fa-book
-    - text: "Packages"
+    - text: "Pacchetti"
       icon: fa-box
       menu:
-      - text: "Machine Learning"
+      - text: "Apprendimento Automatico"
       - text: "pomodoro"
         #icon: fa-tomato
         href: https://github.com/seymakalay/pomodoro
       - text: "------------"  
-      - text: "Data Visualization"  
+      - text: "Visualizzazione Dati"  
       - text: "pepe" 
         #icon: <i class="fa-solid fa-pepper-hot"></i>
         href: https://github.com/seymakalay/pepe
-    - text: "Tutorials"
+    - text: "Tutorial"
       icon:  fa-rocket
       menu:
-      - text: "Machine Learning"
+      - text: "Apprendimento Automatico"
       - text: "pomodoro"
         href: pomodoro.tutorial.html
       - text: "------------"  
-      - text: "Data Visualization"  
+      - text: "Visualizzazione Dati"  
       - text: "pepe"
         href: pepe.tutorial.html
     - text: "Shiny"
       icon: fa-gem
       menu:
-      - text: "Mapping"
-      - text: "Simple Map"
+      - text: "Mappatura"
+      - text: "Mappa semplice"
         href: MapApp.html
       - text: "------------" 
-      - text: "Visualization"
+      - text: "Visualizzazione"
       - text: "Plot"
         href: VisualApp.html  
     - text: "Tableau"
