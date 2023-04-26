@@ -25,7 +25,8 @@ library(knitr)
 <!--\1  <span style="color:red">pomodoro</span> \1-->
 <!--\1   \1-->
   
-# Questa pagina è in costruzione
+
+# Questa pagina è in costruzione.
 
 ## Obiettivi
 
