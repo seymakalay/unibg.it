@@ -19,40 +19,40 @@ library(fontawesome)
 <!--\1  <span style="color:red">pomodoro</span> \1-->
 <!--\1   \1-->
   
-## Objectives
+## Obiettivi
 
-> This tutorial is meant to introduce [pomodoro](https://github.com/seymakalay/pomodoro)  package only, using a case study.
-The purpose of this package is modelling and reporting the predictive modelling with ease. 
+> Questo tutorial ha lo scopo di introdurre solo il pacchetto [pomodoro](https://github.com/seymakalay/pomodoro), utilizzando un case study.
+Lo scopo di questo pacchetto è modellare e riportare facilmente la modellazione predittiva.
 
 
 ### Dataset
 
-After cleaning the data set for this case study, 
-we can visualize the summary statistics of the given data.
 
+Dopo aver pulito il set di dati per questo caso di studio,
+possiamo visualizzare le statistiche riassuntive dei dati forniti.
 
 <center>
 ![Summary Statistics](images/sum.stats.png){width=85%}
 </center>
 
-Note: HR stands for Household Registration. NW-HE is net-worth minus home equity. All the asset variables (e.g.
-income, net-worth, NW-HE, and liquid assets are in Chinese renminbi (CNY).
+Nota: HR sta per Household Registration. NW-HE è il patrimonio netto meno il patrimonio immobiliare. Tutte le variabili dell'asset (ad es.
+reddito, patrimonio netto, NW-HE e attività liquide sono in renminbi cinese (CNY).
 
 
 ## Overview
 
-Package `pomodoro` runs currently bagging (`BAG_Model`), boosting (`GBM_Model`), random forest (`RF_Model`), 
-multinominal logistic (`MLM_Model`), and logistic models (`GLM_Model`).
-This package is useful when you need the compare the predictive modeling using 
-the different data splits or/and adding exogenous variables into the equation.
-And it divides the data set  into 80/20 train/test set, 
-using stratified random sampling and implements 10 cross validation to each model.
+Il pacchetto `pomodoro` esegue attualmente bagging (`BAG_Model`), boosting (`GBM_Model`), random forest (`RF_Model`),
+modelli logistici multinominali (`MLM_Model`) e logistici (`GLM_Model`).
+Questo pacchetto è utile quando è necessario confrontare la modellazione predittiva utilizzando
+le diverse suddivisioni dei dati o/e l'aggiunta di variabili esogene nell'equazione.
+E divide il set di dati in set di treno/test 80/20,
+utilizzando un campionamento casuale stratificato e implementa 10 convalide incrociate per ciascun modello.
 
 
 
 ### Installation
 
-You can install `pomodoro` from [CRAN](https://CRAN.R-project.org) with:
+Puoi installare `pomodoro` da [CRAN](https://CRAN.R-project.org) con:
 
 ``` r
 install.packages("pomodoro")
@@ -62,13 +62,13 @@ library(pomodoro)
 
 ## Building a Selected Model
 
-Let's build `RF_Model` one of the models which is available for this package.
-In the `pomodoro` [help field](https://cran.r-project.org/web/packages/pomodoro/pomodoro.pdf)
-we can see that `RF_Model`  was defined as  `RF_Model(Data, xvar, yvar)`.
+Costruiamo `RF_Model` uno dei modelli disponibili per questo pacchetto.
+Nel `pomodoro` [campo aiuto](https://cran.r-project.org/web/packages/pomodoro/pomodoro.pdf)
+possiamo vedere che `RF_Model` è stato definito come `RF_Model(Data, xvar, yvar)`.
 
 ### DataSet 
 
-For the computational purposes lets take the first 1000 rows of the `sample_data`.
+Per scopi computazionali prendiamo le prime 1000 righe di `sample_data`.
 
 ```r
 sample_data <- sample_data[c(1:1000),]
@@ -76,7 +76,7 @@ sample_data <- sample_data[c(1:1000),]
 
 ### Selecting Dependent Variables
 
-where `xvar` is a vector which is defined as below:  
+dove `xvar` è un vettore definito come di seguito:
 
 ``` r
 xvar <- c("sex", "married", "age", "havejob", "educ", "political.afl",
@@ -85,13 +85,13 @@ xvar <- c("sex", "married", "age", "havejob", "educ", "political.afl",
 
 ### Selecting Independent Variables
 
-where `yvar` is a two or multilevel factor variable which  is defined as below: 
-
+dove "yvar" è una variabile fattore a due o più livelli definita come di seguito:
 
 ``` r
 yvar <- c("Loan.Type") 
 ```
-or
+o
+
 ``` r
 yvar <- c("multi.level")
 ```
@@ -100,7 +100,7 @@ yvar <- c("multi.level")
 
 ### Implemantation 
 
-We can implement `RF_Model` for `yvar <- c("multi.level")` as follows,
+Possiamo implementare `RF_Model` per `yvar <- c("multi.level")` come segue,
 
 ``` r
  yvar <- c("multi.level")
@@ -112,7 +112,7 @@ We can implement `RF_Model` for `yvar <- c("multi.level")` as follows,
 
 ### Results of the `RF_Model`
 
-Using `attributes(BchMk.RF)`, we can see the outcome options.
+Usando `attributes(BchMk.RF)`, possiamo vedere le opzioni di risultato.
 
 `BchMk.RF$results`
 ```r
@@ -159,45 +159,44 @@ Multi-class area under the curve: 0.7143
 
 ## Building an Estimated Models
 
-To model all the data set and its splits, interchangeably with 
-3 assets owning variables (`networth, networth_homequity, and liquid.assets`)
-and given an exogenous variable, in this case `exog = "political.afl"`.
+Per modellare tutto il set di dati e le sue suddivisioni, in modo intercambiabile con
+3 asset che possiedono variabili (`networth, networth_homequity e liquid.assets`)
+e data una variabile esogena, in questo caso `exog = "political.afl"`.
 
-Let's build `RF_Model` again but this time .
-In the `pomodoro` [help field](https://cran.r-project.org/web/packages/pomodoro/pomodoro.pdf)
-we can see that `Estimate_Models`  was defined as
+Costruiamo di nuovo `RF_Model` ma questa volta .
+Nel `pomodoro` [campo aiuto](https://cran.r-project.org/web/packages/pomodoro/pomodoro.pdf)
+possiamo vedere che `Estimate_Models` è stato definito come
 `Estimate_Models(DataSet = Data, yvar, exog = NULL, xvec = xvar, xadd, type, dnames)`.
 
-We have already defined `xvar`, `yvar` and `Data`.
+Abbiamo già definito `xvar`, `yvar` e `Data`.
 
 
 ### Selecting `exog` Variable
 
-`exog = "political.afl"` will define the data set based on the factor levels of the 
-`"political.afl"` in this case "0" and "1".  
+`exog = "political.afl"` definirà il set di dati in base ai livelli dei fattori di
+`"political.afl"` in questo caso "0" e "1".
 
 ### Selecting `xadd` Variable
 
-`xadd` is a vector set which are not highly correlated with `"income"` but highly correlated between them.
-So we need to add each variable in `xadd = c("networth", "networth_homequity", "liquid.assets")` interchangeably. 
+`xadd` è un insieme di vettori che non sono altamente correlati con `"reddito"` ma altamente correlati tra loro.
+Quindi dobbiamo aggiungere ogni variabile in `xadd = c("networth", "networth_homequity", "liquid.assets")` in modo intercambiabile.
 
 
 ### Selecting `type` Variable
 
-`type` can be on of the bagging (`BAG`), boosting (`GBM`), random forest (`RF`), 
+`type` può essere uno dei modelli di bagging (`BAG`), boosting (`GBM`), random forest (`RF`), 
 multinominal logistic (`MLM`), and logistic models (`GLM`). 
 
 
 ### Selecting `dnames` Variable
 
-`dnames` is the factor values of `exog`. For example `dnames = c("0","1")` since there are 
-2 levels in `exog = "political.afl"` which is "0" and "1".
-`dnames` argument is important to avoid confusion when we print out the results.
-
+`dnames` è il valore dei fattori di `exog`. Ad esempio `dnames = c("0","1")` poiché ci sono
+2 livelli in `exog = "political.afl"` che è "0" e "1".
+L'argomento `dnames` è importante per evitare confusione quando si stampano i risultati.
 
 ### Implemantation 
 
-We can implement `Estimate_Models` for `yvar <- c("multi.level")` as follows,
+Possiamo implementare `Estimate_Models` per `yvar <- c("multi.level")` come segue,
 
 ``` r
 CCP.RF <- Estimate_Models(sample_data, yvar, xvec = xvar, exog = "political.afl",
@@ -207,24 +206,23 @@ CCP.RF <- Estimate_Models(sample_data, yvar, xvec = xvar, exog = "political.afl"
 
 
 ### Results of the `Estimate_Models`
-
-Using `CCP.RF`, we can see the outcomes of 
+Usando `CCP.RF`, possiamo vedere i risultati di
 `BchMk+networth`, `BchMk+networth_homequity`, `BchMk+liquid.assets`
-`D.0+networth`, `D.0+networth_homequity`, `D.0+liquid.assets`,
-`D.1+networth`, `D.1+networth_homequity`, and `D.1+liquid.assets`. 
+`D.0+patrimonio netto`, `D.0+equità_patrimoniale_patrimoniale`, `D.0+asset.liquidi`,
+"D.1+patrimonio netto", "D.1+patrimonio_patrimoniale_patrimoniale" e "D.1+attivo.liquido".
 
-`Estimate_Models` implemented `RF_Model`, firstly to all data set as it is called `BchMk`,
-secondly `D.0` and lastly `D.1`, adding 3 asset variables interchangeably.  
+`Estimate_Models` ha implementato `RF_Model`, in primo luogo per tutti i set di dati come viene chiamato `BchMk`,
+in secondo luogo `D.0` e infine `D.1`, aggiungendo 3 variabili di asset in modo intercambiabile.
 
-Where `D.0` and `D.1` are coming from the `dnames = c("0","1")` and
-can be interpreted as `D.0` when  `political.afl == 0` and  `D.1` when `political.afl == 1`
+Dove `D.0` e `D.1` derivano da `dnames = c("0","1")` e
+può essere interpretato come `D.0` quando `political.afl == 0` e `D.1` quando `political.afl == 1`
 
-`Estimate_Models` reported  `BchMk` with all the `exog` variables and 
-divided all the data set (`BchMk`) in to 2-level, when the observation has 
-`political.afl == 0` or `political.afl == 1`,
+`Estimate_Models` ha riportato `BchMk` con tutte le variabili `exog` e
+diviso tutto il set di dati (`BchMk`) a 2 livelli, quando l'osservazione ha
+`political.afl == 0` o `political.afl == 1`,
 
 
-Since this is a list object we need to use `attributes` as follows,
+Poiché si tratta di un oggetto elenco, dobbiamo utilizzare `attributi` come segue,
 
 ```r
 attributes(CCP.RF$EstMdl$`D.1+liquid.assets`)
@@ -283,16 +281,16 @@ Multi-class area under the curve: 0.8182
 
 ## Building a Combined Performance
 
-`Estimate_Models` reported predictive results for both `political.afl == 0` and `political.afl == 1`.
-What we need is to combine these split data set to calculate over all the performance for the
-political affiliation data split.
+`Estimate_Models` ha riportato risultati predittivi sia per `political.afl == 0` che per `political.afl == 1`.
+Ciò di cui abbiamo bisogno è combinare questi set di dati divisi per calcolare su tutte le prestazioni per il
+divisione dei dati sull'affiliazione politica.
 
 
-In the `pomodoro` [help field](https://cran.r-project.org/web/packages/pomodoro/pomodoro.pdf)
-we can see that `Combined_Performance`  was defined as
+Nel `pomodoro` [campo aiuto](https://cran.r-project.org/web/packages/pomodoro/pomodoro.pdf)
+possiamo vedere che `Combined_Performance` è stato definito come
 `Combined_Performance(Sub.Est.Mdls)`.
 
-We have already defined all we need in `Estimate_Models` let`s bring them together.
+Abbiamo già definito tutto ciò di cui abbiamo bisogno in `Estimate_Models`, riuniamoli.
 
 ### Implemantation 
 
@@ -304,7 +302,7 @@ CCP.NoCCP.RF <- Combined_Performance(Sub.CCP.RF)
 
 ### Results of the `Combined_Performance`
 
-Using  `attributes(CCP.NoCCP.RF)` we can see the outcomes of `Combined_Performance`
+Usando `attributes(CCP.NoCCP.RF)` possiamo vedere i risultati di `Combined_Performance`
 
 
 `head(CCP.NoCCP.RF$Pred_prob)`
@@ -341,7 +339,7 @@ Multi-class area under the curve: 0.6929
 ```
 
 
-> Have Fun!
+> Divertiti!
 
 
 <!--\1  \( \LaTeX \)  Back to top [`r fa("arrow-up", height = "2em", width = "2em", fill = "steelblue")`](#) \1-->

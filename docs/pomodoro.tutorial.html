@@ -427,15 +427,119 @@ div.tocify {
   <a href="Journal.html">
     <span class="fa fa-book"></span>
      
-    Journal
+    CV
   </a>
 </li>
+<li class="dropdown">
+  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+    <span class="fa fa-box"></span>
+     
+    Packages
+     
+    <span class="caret"></span>
+  </a>
+  <ul class="dropdown-menu" role="menu">
+    <li class="dropdown-header">Machine Learning</li>
+    <li>
+      <a href="https://github.com/seymakalay/pomodoro">pomodoro</a>
+    </li>
+    <li class="divider"></li>
+    <li class="dropdown-header">Data Visualization</li>
+    <li>
+      <a href="https://github.com/seymakalay/pepe">pepe</a>
+    </li>
+  </ul>
+</li>
+<li class="dropdown">
+  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+    <span class="fa fa-rocket"></span>
+     
+    Tutorials
+     
+    <span class="caret"></span>
+  </a>
+  <ul class="dropdown-menu" role="menu">
+    <li class="dropdown-header">Machine Learning</li>
+    <li>
+      <a href="pomodoro.tutorial.html">pomodoro</a>
+    </li>
+    <li class="divider"></li>
+    <li class="dropdown-header">Data Visualization</li>
+    <li>
+      <a href="pepe.tutorial.html">pepe</a>
+    </li>
+  </ul>
+</li>
+<li class="dropdown">
+  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+    <span class="fa fa-gem"></span>
+     
+    Shiny
+     
+    <span class="caret"></span>
+  </a>
+  <ul class="dropdown-menu" role="menu">
+    <li class="dropdown-header">Mapping</li>
+    <li>
+      <a href="MapApp.html">Simple Map</a>
+    </li>
+    <li class="divider"></li>
+    <li class="dropdown-header">Visualization</li>
+    <li>
+      <a href="VisualApp.html">Plot</a>
+    </li>
+  </ul>
+</li>
 <li>
-  <a href="Links.html">Links</a>
+  <a href="tableau.html">
+    <span class="fa fa-star"></span>
+     
+    Tableau
+  </a>
 </li>
       </ul>
       <ul class="nav navbar-nav navbar-right">
-        
+        <li>
+  <a href="https://github.com/seymakalay">
+    <span class="fa fa-github"></span>
+     
+  </a>
+</li>
+<li>
+  <a href="https://stackoverflow.com/users/9209203/seyma-kalay?tab=profile">
+    <span class="fa fa-stack-overflow"></span>
+     
+  </a>
+</li>
+<li class="dropdown">
+  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+    <span class="fa fa-download"></span>
+     
+    
+     
+    <span class="caret"></span>
+  </a>
+  <ul class="dropdown-menu" role="menu">
+    <li class="dropdown-header">CVs</li>
+    <li>
+      <a href="./SK_Cover.pdf">English CV</a>
+    </li>
+    <li>
+      <a href="./SK_Cover_it.pdf">Italian CV</a>
+    </li>
+    <li class="divider"></li>
+    <li class="dropdown-header">Docs</li>
+    <li>
+      <a href="./images/Certificates.pdf">Certificates</a>
+    </li>
+  </ul>
+</li>
+<li>
+  <a href="https://www.linkedin.com/in/seyma-kalay-3315345b/">
+    <span class="fab fa-linkedin fa-lg"></span>
+     
+  </a>
+</li>
       </ul>
     </div><!--/.nav-collapse -->
   </div><!--/.container -->
@@ -451,79 +555,80 @@ div.tocify {
 
 <!--\1  <span style="color:red">pomodoro</span> \1-->
 <!--\1   \1-->
-<div id="objectives" class="section level2">
-<h2>Objectives</h2>
+<div id="obiettivi" class="section level2">
+<h2>Obiettivi</h2>
 <blockquote>
-<p>This tutorial is meant to introduce <a
-href="https://github.com/seymakalay/pomodoro">pomodoro</a> package only,
-using a case study. The purpose of this package is modelling and
-reporting the predictive modelling with ease.</p>
+<p>Questo tutorial ha lo scopo di introdurre solo il pacchetto <a
+href="https://github.com/seymakalay/pomodoro">pomodoro</a>, utilizzando
+un case study. Lo scopo di questo pacchetto è modellare e riportare
+facilmente la modellazione predittiva.</p>
 </blockquote>
 <div id="dataset" class="section level3">
 <h3>Dataset</h3>
-<p>After cleaning the data set for this case study, we can visualize the
-summary statistics of the given data.</p>
+<p>Dopo aver pulito il set di dati per questo caso di studio, possiamo
+visualizzare le statistiche riassuntive dei dati forniti.</p>
 <center>
 <div class="figure">
 <img src="images/sum.stats.png" style="width:85.0%" alt="" />
 <p class="caption">Summary Statistics</p>
 </div>
 </center>
-<p>Note: HR stands for Household Registration. NW-HE is net-worth minus
-home equity. All the asset variables (e.g. income, net-worth, NW-HE, and
-liquid assets are in Chinese renminbi (CNY).</p>
+<p>Nota: HR sta per Household Registration. NW-HE è il patrimonio netto
+meno il patrimonio immobiliare. Tutte le variabili dell’asset (ad es.
+reddito, patrimonio netto, NW-HE e attività liquide sono in renminbi
+cinese (CNY).</p>
 </div>
 </div>
 <div id="overview" class="section level2">
 <h2>Overview</h2>
-<p>Package <code>pomodoro</code> runs currently bagging
+<p>Il pacchetto <code>pomodoro</code> esegue attualmente bagging
 (<code>BAG_Model</code>), boosting (<code>GBM_Model</code>), random
-forest (<code>RF_Model</code>), multinominal logistic
-(<code>MLM_Model</code>), and logistic models (<code>GLM_Model</code>).
-This package is useful when you need the compare the predictive modeling
-using the different data splits or/and adding exogenous variables into
-the equation. And it divides the data set into 80/20 train/test set,
-using stratified random sampling and implements 10 cross validation to
-each model.</p>
+forest (<code>RF_Model</code>), modelli logistici multinominali
+(<code>MLM_Model</code>) e logistici (<code>GLM_Model</code>). Questo
+pacchetto è utile quando è necessario confrontare la modellazione
+predittiva utilizzando le diverse suddivisioni dei dati o/e l’aggiunta
+di variabili esogene nell’equazione. E divide il set di dati in set di
+treno/test 80/20, utilizzando un campionamento casuale stratificato e
+implementa 10 convalide incrociate per ciascun modello.</p>
 <div id="installation" class="section level3">
 <h3>Installation</h3>
-<p>You can install <code>pomodoro</code> from <a
-href="https://CRAN.R-project.org">CRAN</a> with:</p>
+<p>Puoi installare <code>pomodoro</code> da <a
+href="https://CRAN.R-project.org">CRAN</a> con:</p>
 <div class="sourceCode" id="cb1"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="fu">install.packages</span>(<span class="st">&quot;pomodoro&quot;</span>)</span>
 <span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(pomodoro)</span></code></pre></div>
 </div>
 </div>
 <div id="building-a-selected-model" class="section level2">
 <h2>Building a Selected Model</h2>
-<p>Let’s build <code>RF_Model</code> one of the models which is
-available for this package. In the <code>pomodoro</code> <a
-href="https://cran.r-project.org/web/packages/pomodoro/pomodoro.pdf">help
-field</a> we can see that <code>RF_Model</code> was defined as
-<code>RF_Model(Data, xvar, yvar)</code>.</p>
+<p>Costruiamo <code>RF_Model</code> uno dei modelli disponibili per
+questo pacchetto. Nel <code>pomodoro</code> <a
+href="https://cran.r-project.org/web/packages/pomodoro/pomodoro.pdf">campo
+aiuto</a> possiamo vedere che <code>RF_Model</code> è stato definito
+come <code>RF_Model(Data, xvar, yvar)</code>.</p>
 <div id="dataset-1" class="section level3">
 <h3>DataSet</h3>
-<p>For the computational purposes lets take the first 1000 rows of the
+<p>Per scopi computazionali prendiamo le prime 1000 righe di
 <code>sample_data</code>.</p>
 <div class="sourceCode" id="cb2"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a>sample_data <span class="ot">&lt;-</span> sample_data[<span class="fu">c</span>(<span class="dv">1</span><span class="sc">:</span><span class="dv">1000</span>),]</span></code></pre></div>
 </div>
 <div id="selecting-dependent-variables" class="section level3">
 <h3>Selecting Dependent Variables</h3>
-<p>where <code>xvar</code> is a vector which is defined as below:</p>
+<p>dove <code>xvar</code> è un vettore definito come di seguito:</p>
 <div class="sourceCode" id="cb3"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a>xvar <span class="ot">&lt;-</span> <span class="fu">c</span>(<span class="st">&quot;sex&quot;</span>, <span class="st">&quot;married&quot;</span>, <span class="st">&quot;age&quot;</span>, <span class="st">&quot;havejob&quot;</span>, <span class="st">&quot;educ&quot;</span>, <span class="st">&quot;political.afl&quot;</span>,</span>
 <span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a> <span class="st">&quot;rural&quot;</span>, <span class="st">&quot;region&quot;</span>, <span class="st">&quot;fin.intermdiaries&quot;</span>, <span class="st">&quot;fin.knowldge&quot;</span>, <span class="st">&quot;income&quot;</span>)</span></code></pre></div>
 </div>
 <div id="selecting-independent-variables" class="section level3">
 <h3>Selecting Independent Variables</h3>
-<p>where <code>yvar</code> is a two or multilevel factor variable which
-is defined as below:</p>
+<p>dove “yvar” è una variabile fattore a due o più livelli definita come
+di seguito:</p>
 <div class="sourceCode" id="cb4"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a>yvar <span class="ot">&lt;-</span> <span class="fu">c</span>(<span class="st">&quot;Loan.Type&quot;</span>) </span></code></pre></div>
-<p>or</p>
+<p>o</p>
 <div class="sourceCode" id="cb5"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a>yvar <span class="ot">&lt;-</span> <span class="fu">c</span>(<span class="st">&quot;multi.level&quot;</span>)</span></code></pre></div>
 </div>
 <div id="implemantation" class="section level3">
 <h3>Implemantation</h3>
-<p>We can implement <code>RF_Model</code> for
-<code>yvar &lt;- c("multi.level")</code> as follows,</p>
+<p>Possiamo implementare <code>RF_Model</code> per
+<code>yvar &lt;- c("multi.level")</code> come segue,</p>
 <div class="sourceCode" id="cb6"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a> yvar <span class="ot">&lt;-</span> <span class="fu">c</span>(<span class="st">&quot;multi.level&quot;</span>)</span>
 <span id="cb6-2"><a href="#cb6-2" aria-hidden="true" tabindex="-1"></a> xvar <span class="ot">&lt;-</span> <span class="fu">c</span>(<span class="st">&quot;sex&quot;</span>, <span class="st">&quot;married&quot;</span>, <span class="st">&quot;age&quot;</span>, <span class="st">&quot;havejob&quot;</span>, <span class="st">&quot;educ&quot;</span>, <span class="st">&quot;political.afl&quot;</span>,</span>
 <span id="cb6-3"><a href="#cb6-3" aria-hidden="true" tabindex="-1"></a> <span class="st">&quot;rural&quot;</span>, <span class="st">&quot;region&quot;</span>, <span class="st">&quot;fin.intermdiaries&quot;</span>, <span class="st">&quot;fin.knowldge&quot;</span>, <span class="st">&quot;income&quot;</span>)</span>
@@ -532,8 +637,8 @@ is defined as below:</p>
 </div>
 <div id="results-of-the-rf_model" class="section level3">
 <h3>Results of the <code>RF_Model</code></h3>
-<p>Using <code>attributes(BchMk.RF)</code>, we can see the outcome
-options.</p>
+<p>Usando <code>attributes(BchMk.RF)</code>, possiamo vedere le opzioni
+di risultato.</p>
 <p><code>BchMk.RF$results</code></p>
 <div class="sourceCode" id="cb7"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a>  mtry  Accuracy     Kappa AccuracySD    KappaSD</span>
 <span id="cb7-2"><a href="#cb7-2" aria-hidden="true" tabindex="-1"></a><span class="dv">1</span>    <span class="dv">2</span> <span class="fl">0.7640207</span> <span class="fl">0.1712487</span> <span class="fl">0.01929120</span> <span class="fl">0.06294866</span></span>
@@ -564,77 +669,79 @@ options.</p>
 </div>
 <div id="building-an-estimated-models" class="section level2">
 <h2>Building an Estimated Models</h2>
-<p>To model all the data set and its splits, interchangeably with 3
-assets owning variables
-(<code>networth, networth_homequity, and liquid.assets</code>) and given
-an exogenous variable, in this case
+<p>Per modellare tutto il set di dati e le sue suddivisioni, in modo
+intercambiabile con 3 asset che possiedono variabili
+(<code>networth, networth_homequity e liquid.assets</code>) e data una
+variabile esogena, in questo caso
 <code>exog = "political.afl"</code>.</p>
-<p>Let’s build <code>RF_Model</code> again but this time . In the
+<p>Costruiamo di nuovo <code>RF_Model</code> ma questa volta . Nel
 <code>pomodoro</code> <a
-href="https://cran.r-project.org/web/packages/pomodoro/pomodoro.pdf">help
-field</a> we can see that <code>Estimate_Models</code> was defined as
+href="https://cran.r-project.org/web/packages/pomodoro/pomodoro.pdf">campo
+aiuto</a> possiamo vedere che <code>Estimate_Models</code> è stato
+definito come
 <code>Estimate_Models(DataSet = Data, yvar, exog = NULL, xvec = xvar, xadd, type, dnames)</code>.</p>
-<p>We have already defined <code>xvar</code>, <code>yvar</code> and
+<p>Abbiamo già definito <code>xvar</code>, <code>yvar</code> e
 <code>Data</code>.</p>
 <div id="selecting-exog-variable" class="section level3">
 <h3>Selecting <code>exog</code> Variable</h3>
-<p><code>exog = "political.afl"</code> will define the data set based on
-the factor levels of the <code>"political.afl"</code> in this case “0”
-and “1”.</p>
+<p><code>exog = "political.afl"</code> definirà il set di dati in base
+ai livelli dei fattori di <code>"political.afl"</code> in questo caso
+“0” e “1”.</p>
 </div>
 <div id="selecting-xadd-variable" class="section level3">
 <h3>Selecting <code>xadd</code> Variable</h3>
-<p><code>xadd</code> is a vector set which are not highly correlated
-with <code>"income"</code> but highly correlated between them. So we
-need to add each variable in
+<p><code>xadd</code> è un insieme di vettori che non sono altamente
+correlati con <code>"reddito"</code> ma altamente correlati tra loro.
+Quindi dobbiamo aggiungere ogni variabile in
 <code>xadd = c("networth", "networth_homequity", "liquid.assets")</code>
-interchangeably.</p>
+in modo intercambiabile.</p>
 </div>
 <div id="selecting-type-variable" class="section level3">
 <h3>Selecting <code>type</code> Variable</h3>
-<p><code>type</code> can be on of the bagging (<code>BAG</code>),
-boosting (<code>GBM</code>), random forest (<code>RF</code>),
-multinominal logistic (<code>MLM</code>), and logistic models
-(<code>GLM</code>).</p>
+<p><code>type</code> può essere uno dei modelli di bagging
+(<code>BAG</code>), boosting (<code>GBM</code>), random forest
+(<code>RF</code>), multinominal logistic (<code>MLM</code>), and
+logistic models (<code>GLM</code>).</p>
 </div>
 <div id="selecting-dnames-variable" class="section level3">
 <h3>Selecting <code>dnames</code> Variable</h3>
-<p><code>dnames</code> is the factor values of <code>exog</code>. For
-example <code>dnames = c("0","1")</code> since there are 2 levels in
-<code>exog = "political.afl"</code> which is “0” and “1”.
-<code>dnames</code> argument is important to avoid confusion when we
-print out the results.</p>
+<p><code>dnames</code> è il valore dei fattori di <code>exog</code>. Ad
+esempio <code>dnames = c("0","1")</code> poiché ci sono 2 livelli in
+<code>exog = "political.afl"</code> che è “0” e “1”. L’argomento
+<code>dnames</code> è importante per evitare confusione quando si
+stampano i risultati.</p>
 </div>
 <div id="implemantation-1" class="section level3">
 <h3>Implemantation</h3>
-<p>We can implement <code>Estimate_Models</code> for
-<code>yvar &lt;- c("multi.level")</code> as follows,</p>
+<p>Possiamo implementare <code>Estimate_Models</code> per
+<code>yvar &lt;- c("multi.level")</code> come segue,</p>
 <div class="sourceCode" id="cb12"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb12-1"><a href="#cb12-1" aria-hidden="true" tabindex="-1"></a>CCP.RF <span class="ot">&lt;-</span> <span class="fu">Estimate_Models</span>(sample_data, yvar, <span class="at">xvec =</span> xvar, <span class="at">exog =</span> <span class="st">&quot;political.afl&quot;</span>,</span>
 <span id="cb12-2"><a href="#cb12-2" aria-hidden="true" tabindex="-1"></a> <span class="at">xadd =</span> <span class="fu">c</span>(<span class="st">&quot;networth&quot;</span>, <span class="st">&quot;networth_homequity&quot;</span>, <span class="st">&quot;liquid.assets&quot;</span>) ,</span>
 <span id="cb12-3"><a href="#cb12-3" aria-hidden="true" tabindex="-1"></a> <span class="at">type =</span> <span class="st">&quot;RF&quot;</span>, <span class="at">dnames =</span> <span class="fu">c</span>(<span class="st">&quot;0&quot;</span>,<span class="st">&quot;1&quot;</span>))</span></code></pre></div>
 </div>
 <div id="results-of-the-estimate_models" class="section level3">
 <h3>Results of the <code>Estimate_Models</code></h3>
-<p>Using <code>CCP.RF</code>, we can see the outcomes of
+<p>Usando <code>CCP.RF</code>, possiamo vedere i risultati di
 <code>BchMk+networth</code>, <code>BchMk+networth_homequity</code>,
-<code>BchMk+liquid.assets</code> <code>D.0+networth</code>,
-<code>D.0+networth_homequity</code>, <code>D.0+liquid.assets</code>,
-<code>D.1+networth</code>, <code>D.1+networth_homequity</code>, and
-<code>D.1+liquid.assets</code>.</p>
-<p><code>Estimate_Models</code> implemented <code>RF_Model</code>,
-firstly to all data set as it is called <code>BchMk</code>, secondly
-<code>D.0</code> and lastly <code>D.1</code>, adding 3 asset variables
-interchangeably.</p>
-<p>Where <code>D.0</code> and <code>D.1</code> are coming from the
-<code>dnames = c("0","1")</code> and can be interpreted as
-<code>D.0</code> when <code>political.afl == 0</code> and
-<code>D.1</code> when <code>political.afl == 1</code></p>
-<p><code>Estimate_Models</code> reported <code>BchMk</code> with all the
-<code>exog</code> variables and divided all the data set
-(<code>BchMk</code>) in to 2-level, when the observation has
-<code>political.afl == 0</code> or <code>political.afl == 1</code>,</p>
-<p>Since this is a list object we need to use <code>attributes</code> as
-follows,</p>
+<code>BchMk+liquid.assets</code> <code>D.0+patrimonio netto</code>,
+<code>D.0+equità_patrimoniale_patrimoniale</code>,
+<code>D.0+asset.liquidi</code>, “D.1+patrimonio netto”,
+“D.1+patrimonio_patrimoniale_patrimoniale” e “D.1+attivo.liquido”.</p>
+<p><code>Estimate_Models</code> ha implementato <code>RF_Model</code>,
+in primo luogo per tutti i set di dati come viene chiamato
+<code>BchMk</code>, in secondo luogo <code>D.0</code> e infine
+<code>D.1</code>, aggiungendo 3 variabili di asset in modo
+intercambiabile.</p>
+<p>Dove <code>D.0</code> e <code>D.1</code> derivano da
+<code>dnames = c("0","1")</code> e può essere interpretato come
+<code>D.0</code> quando <code>political.afl == 0</code> e
+<code>D.1</code> quando <code>political.afl == 1</code></p>
+<p><code>Estimate_Models</code> ha riportato <code>BchMk</code> con
+tutte le variabili <code>exog</code> e diviso tutto il set di dati
+(<code>BchMk</code>) a 2 livelli, quando l’osservazione ha
+<code>political.afl == 0</code> o <code>political.afl == 1</code>,</p>
+<p>Poiché si tratta di un oggetto elenco, dobbiamo utilizzare
+<code>attributi</code> come segue,</p>
 <div class="sourceCode" id="cb13"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb13-1"><a href="#cb13-1" aria-hidden="true" tabindex="-1"></a><span class="fu">attributes</span>(CCP.RF<span class="sc">$</span>EstMdl<span class="sc">$</span><span class="st">`</span><span class="at">D.1+liquid.assets</span><span class="st">`</span>)</span></code></pre></div>
 <div class="sourceCode" id="cb14"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb14-1"><a href="#cb14-1" aria-hidden="true" tabindex="-1"></a><span class="sc">&gt;</span> CCP.RF<span class="sc">$</span>EstMdl<span class="sc">$</span><span class="st">`</span><span class="at">D.1+liquid.assets</span><span class="st">`</span><span class="sc">$</span>results</span>
 <span id="cb14-2"><a href="#cb14-2" aria-hidden="true" tabindex="-1"></a>  mtry  Accuracy     Kappa AccuracySD   KappaSD</span>
@@ -667,16 +774,17 @@ follows,</p>
 </div>
 <div id="building-a-combined-performance" class="section level2">
 <h2>Building a Combined Performance</h2>
-<p><code>Estimate_Models</code> reported predictive results for both
-<code>political.afl == 0</code> and <code>political.afl == 1</code>.
-What we need is to combine these split data set to calculate over all
-the performance for the political affiliation data split.</p>
-<p>In the <code>pomodoro</code> <a
-href="https://cran.r-project.org/web/packages/pomodoro/pomodoro.pdf">help
-field</a> we can see that <code>Combined_Performance</code> was defined
-as <code>Combined_Performance(Sub.Est.Mdls)</code>.</p>
-<p>We have already defined all we need in <code>Estimate_Models</code>
-let`s bring them together.</p>
+<p><code>Estimate_Models</code> ha riportato risultati predittivi sia
+per <code>political.afl == 0</code> che per
+<code>political.afl == 1</code>. Ciò di cui abbiamo bisogno è combinare
+questi set di dati divisi per calcolare su tutte le prestazioni per il
+divisione dei dati sull’affiliazione politica.</p>
+<p>Nel <code>pomodoro</code> <a
+href="https://cran.r-project.org/web/packages/pomodoro/pomodoro.pdf">campo
+aiuto</a> possiamo vedere che <code>Combined_Performance</code> è stato
+definito come <code>Combined_Performance(Sub.Est.Mdls)</code>.</p>
+<p>Abbiamo già definito tutto ciò di cui abbiamo bisogno in
+<code>Estimate_Models</code>, riuniamoli.</p>
 <div id="implemantation-2" class="section level3">
 <h3>Implemantation</h3>
 <div class="sourceCode" id="cb19"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb19-1"><a href="#cb19-1" aria-hidden="true" tabindex="-1"></a>Sub.CCP.RF <span class="ot">&lt;-</span> <span class="fu">list</span>(<span class="at">Mdl.1 =</span> CCP.RF<span class="sc">$</span>EstMdl<span class="sc">$</span><span class="st">`</span><span class="at">D.1+networth</span><span class="st">`</span>,</span>
@@ -685,8 +793,8 @@ let`s bring them together.</p>
 </div>
 <div id="results-of-the-combined_performance" class="section level3">
 <h3>Results of the <code>Combined_Performance</code></h3>
-<p>Using <code>attributes(CCP.NoCCP.RF)</code> we can see the outcomes
-of <code>Combined_Performance</code></p>
+<p>Usando <code>attributes(CCP.NoCCP.RF)</code> possiamo vedere i
+risultati di <code>Combined_Performance</code></p>
 <p><code>head(CCP.NoCCP.RF$Pred_prob)</code></p>
 <div class="sourceCode" id="cb20"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb20-1"><a href="#cb20-1" aria-hidden="true" tabindex="-1"></a>    zero   one</span>
 <span id="cb20-2"><a href="#cb20-2" aria-hidden="true" tabindex="-1"></a><span class="dv">58</span> <span class="fl">0.120</span> <span class="fl">0.880</span></span>
@@ -709,7 +817,7 @@ of <code>Combined_Performance</code></p>
 <div class="sourceCode" id="cb23"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb23-1"><a href="#cb23-1" aria-hidden="true" tabindex="-1"></a><span class="sc">&gt;</span> CCP.RF<span class="sc">$</span>EstMdl<span class="sc">$</span><span class="st">`</span><span class="at">D.1+liquid.assets</span><span class="st">`</span><span class="sc">$</span>ACC</span>
 <span id="cb23-2"><a href="#cb23-2" aria-hidden="true" tabindex="-1"></a>[<span class="dv">1</span>] <span class="fl">0.7817259</span></span></code></pre></div>
 <blockquote>
-<p>Have Fun!</p>
+<p>Divertiti!</p>
 </blockquote>
 <!--\1  \( \LaTeX \)  Back to top [`<svg preserveAspectRatio="none" aria-hidden="true" role="img" viewBox="0 0 384 512" style="height:2em;width:2em;vertical-align:-0.125em;margin-left:auto;margin-right:auto;font-size:inherit;fill:steelblue;overflow:visible;position:relative;"><path d="M214.6 41.4c-12.5-12.5-32.8-12.5-45.3 0l-160 160c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L160 141.2V448c0 17.7 14.3 32 32 32s32-14.3 32-32V141.2L329.4 246.6c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3l-160-160z"/></svg>`{=html}](#) \1-->
 <p><a href="#top" style="color:steelblue;" >Back to top</a> <a

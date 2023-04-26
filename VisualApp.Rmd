@@ -11,11 +11,11 @@ output:
    #  - \usepackage{placeins}
 ---
 
-# this page is under construction
+# Questa pagina è in costruzione
 
 
-## Objectives
+## Obiettivi
 
-> This tutorial is meant to introduce interactive visualization, using a case study.
+> Questo tutorial ha lo scopo di introdurre la visualizzazione interattiva, utilizzando un caso di studio.
 
 

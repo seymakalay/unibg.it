@@ -427,15 +427,119 @@ div.tocify {
   <a href="Journal.html">
     <span class="fa fa-book"></span>
      
-    Journal
+    CV
   </a>
 </li>
+<li class="dropdown">
+  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+    <span class="fa fa-box"></span>
+     
+    Packages
+     
+    <span class="caret"></span>
+  </a>
+  <ul class="dropdown-menu" role="menu">
+    <li class="dropdown-header">Machine Learning</li>
+    <li>
+      <a href="https://github.com/seymakalay/pomodoro">pomodoro</a>
+    </li>
+    <li class="divider"></li>
+    <li class="dropdown-header">Data Visualization</li>
+    <li>
+      <a href="https://github.com/seymakalay/pepe">pepe</a>
+    </li>
+  </ul>
+</li>
+<li class="dropdown">
+  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+    <span class="fa fa-rocket"></span>
+     
+    Tutorials
+     
+    <span class="caret"></span>
+  </a>
+  <ul class="dropdown-menu" role="menu">
+    <li class="dropdown-header">Machine Learning</li>
+    <li>
+      <a href="pomodoro.tutorial.html">pomodoro</a>
+    </li>
+    <li class="divider"></li>
+    <li class="dropdown-header">Data Visualization</li>
+    <li>
+      <a href="pepe.tutorial.html">pepe</a>
+    </li>
+  </ul>
+</li>
+<li class="dropdown">
+  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+    <span class="fa fa-gem"></span>
+     
+    Shiny
+     
+    <span class="caret"></span>
+  </a>
+  <ul class="dropdown-menu" role="menu">
+    <li class="dropdown-header">Mapping</li>
+    <li>
+      <a href="MapApp.html">Simple Map</a>
+    </li>
+    <li class="divider"></li>
+    <li class="dropdown-header">Visualization</li>
+    <li>
+      <a href="VisualApp.html">Plot</a>
+    </li>
+  </ul>
+</li>
 <li>
-  <a href="Links.html">Links</a>
+  <a href="tableau.html">
+    <span class="fa fa-star"></span>
+     
+    Tableau
+  </a>
 </li>
       </ul>
       <ul class="nav navbar-nav navbar-right">
-        
+        <li>
+  <a href="https://github.com/seymakalay">
+    <span class="fa fa-github"></span>
+     
+  </a>
+</li>
+<li>
+  <a href="https://stackoverflow.com/users/9209203/seyma-kalay?tab=profile">
+    <span class="fa fa-stack-overflow"></span>
+     
+  </a>
+</li>
+<li class="dropdown">
+  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+    <span class="fa fa-download"></span>
+     
+    
+     
+    <span class="caret"></span>
+  </a>
+  <ul class="dropdown-menu" role="menu">
+    <li class="dropdown-header">CVs</li>
+    <li>
+      <a href="./SK_Cover.pdf">English CV</a>
+    </li>
+    <li>
+      <a href="./SK_Cover_it.pdf">Italian CV</a>
+    </li>
+    <li class="divider"></li>
+    <li class="dropdown-header">Docs</li>
+    <li>
+      <a href="./images/Certificates.pdf">Certificates</a>
+    </li>
+  </ul>
+</li>
+<li>
+  <a href="https://www.linkedin.com/in/seyma-kalay-3315345b/">
+    <span class="fab fa-linkedin fa-lg"></span>
+     
+  </a>
+</li>
       </ul>
     </div><!--/.nav-collapse -->
   </div><!--/.container -->
@@ -451,39 +555,42 @@ div.tocify {
 
 <!--\1  <span style="color:red">pomodoro</span> \1-->
 <!--\1   \1-->
-<div id="objectives" class="section level2">
-<h2>Objectives</h2>
+<div id="obiettivi" class="section level2">
+<h2>Obiettivi</h2>
 <blockquote>
-<p>This tutorial is meant to introduce <a
-href="https://github.com/seymakalay/pepe">pepe</a> package only, using a
-case study. The purpose of this package is presanting the tables and
-plots with ease.</p>
+<p>Questo tutorial ha lo scopo di introdurre solo il pacchetto <a
+href="https://github.com/seymakalay/pepe">pepe</a>, utilizzando un case
+study. Lo scopo di questo pacchetto è di presentare le tabelle ei
+grafici con facilità.</p>
 </blockquote>
 <div id="dataset" class="section level3">
 <h3>Dataset</h3>
-<p>After cleaning the data set (<code>sample_data</code>) for this case
-study, we can visualize the summary statistics of the given data.</p>
+<p>Dopo aver pulito il set di dati (<code>sample_data</code>) per questo
+case study, possiamo visualizzare le statistiche riassuntive dei dati
+forniti.</p>
 <center>
 <div class="figure">
 <img src="images/sum.stats.png" style="width:85.0%" alt="" />
 <p class="caption">Summary Statistics</p>
 </div>
 </center>
-<p>Note: HR stands for Household Registration. NW-HE is net-worth minus
-home equity. All the asset variables (e.g. income, net-worth, NW-HE, and
-liquid assets are in Chinese renminbi (CNY).</p>
+<p>Nota: HR sta per Household Registration. NW-HE è il patrimonio netto
+meno il patrimonio immobiliare. Tutte le variabili dell’asset (ad es.
+reddito, patrimonio netto, NW-HE e attività liquide sono in renminbi
+cinese (CNY).</p>
 </div>
 </div>
 <div id="overview" class="section level2">
 <h2>Overview</h2>
-<p>Package <code>pepe</code> runs <code>Plot.by.Factr</code>,
-<code>df4.Plot.by.Factr</code>, and <code>Pvot.by.Factr</code>.
-<!--\1  `Stats.by.Factr`, \1--> This package is useful when you need to
-do descriptive stats and plotting for different data splits.</p>
+<p>Il pacchetto <code>pepe</code> esegue <code>Plot.by.Factr</code>,
+<code>df4.Plot.by.Factr</code> e <code>Pvot.by.Factr</code>.
+<!--\1 `Stats.by.Factr`, \1--> Questo pacchetto è utile quando è
+necessario eseguire statistiche descrittive e tracciare grafici per
+diverse suddivisioni di dati.</p>
 <div id="installation" class="section level3">
 <h3>Installation</h3>
-<p>You can install <code>pepe</code> from <a
-href="https://CRAN.R-project.org">CRAN</a> with:</p>
+<p>Puoi installare <code>pepe</code> da <a
+href="https://CRAN.R-project.org">CRAN</a> con:</p>
 <div class="sourceCode" id="cb1"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="co">#install.packages(&quot;pepe&quot;)</span></span>
 <span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(pepe)</span></code></pre></div>
 </div>
@@ -492,8 +599,8 @@ href="https://CRAN.R-project.org">CRAN</a> with:</p>
 <h2>Building plots</h2>
 <div id="plotting" class="section level3">
 <h3>Plotting</h3>
-<p><code>Plot.by.Factr</code> function will create plotting by two level
-factor variables (<code>var</code>).</p>
+<p>La funzione <code>Plot.by.Factr</code> creerà il tracciato con due
+variabili fattore di livello (<code>var</code>).</p>
 <div class="sourceCode" id="cb2"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a>df <span class="ot">&lt;-</span> sample_data[<span class="fu">c</span>(<span class="st">&quot;Formal&quot;</span>,<span class="st">&quot;Informal&quot;</span>,<span class="st">&quot;L.Both&quot;</span>,<span class="st">&quot;No.Loan&quot;</span>,</span>
 <span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a><span class="st">&quot;sex&quot;</span>,<span class="st">&quot;educ&quot;</span>,<span class="st">&quot;political.afl&quot;</span>,<span class="st">&quot;married&quot;</span>,</span>
 <span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a> <span class="st">&quot;havejob&quot;</span>,<span class="st">&quot;rural&quot;</span>,<span class="st">&quot;age&quot;</span>,<span class="st">&quot;Income&quot;</span>,<span class="st">&quot;Networth&quot;</span>,<span class="st">&quot;Liquid.Assets&quot;</span>,</span>
@@ -538,7 +645,8 @@ factor variables (<code>var</code>).</p>
 <h2>Building tables</h2>
 <div id="summary-statistics" class="section level3">
 <h3>Summary statistics</h3>
-<p><code>df4.Plot.by.Factr</code> function will create group stats.</p>
+<p>La funzione <code>df4.Plot.by.Factr</code> creerà statistiche di
+gruppo.</p>
 <div class="sourceCode" id="cb7"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a><span class="fu">df4.Plot.by.Factr</span>(var,df)</span>
 <span id="cb7-2"><a href="#cb7-2" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt; $Summ.Stats</span></span>
 <span id="cb7-3"><a href="#cb7-3" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt; $Summ.Stats[[1]]</span></span>
@@ -1217,8 +1325,8 @@ factor variables (<code>var</code>).</p>
 </div>
 <div id="percantage-table" class="section level3">
 <h3>Percantage table</h3>
-<p><code>Pvot.by.Factr</code> function will create a percentage table of
-the selected factor variables.</p>
+<p>La funzione <code>Pvot.by.Factr</code> creerà una tabella percentuale
+delle variabili fattore selezionate.</p>
 <div class="sourceCode" id="cb8"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb8-1"><a href="#cb8-1" aria-hidden="true" tabindex="-1"></a>df <span class="ot">&lt;-</span> sample_data[<span class="fu">c</span>(<span class="st">&quot;multi.level&quot;</span>,</span>
 <span id="cb8-2"><a href="#cb8-2" aria-hidden="true" tabindex="-1"></a><span class="st">&quot;Formal&quot;</span>,<span class="st">&quot;L.Both&quot;</span>,<span class="st">&quot;No.Loan&quot;</span>,</span>
 <span id="cb8-3"><a href="#cb8-3" aria-hidden="true" tabindex="-1"></a> <span class="st">&quot;region&quot;</span>, <span class="st">&quot;sex&quot;</span>, <span class="st">&quot;educ&quot;</span>, <span class="st">&quot;political.afl&quot;</span>,</span>
@@ -1240,7 +1348,7 @@ the selected factor variables.</p>
 <span id="cb8-19"><a href="#cb8-19" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt; fin.knowldge      94.55%  5.45%    NA%    NA%</span></span>
 <span id="cb8-20"><a href="#cb8-20" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt; fin.intermdiaries 81.54% 18.46%    NA%    NA%</span></span></code></pre></div>
 <blockquote>
-<p>Have Fun!</p>
+<p>Divertiti!</p>
 </blockquote>
 <!--\1  \( \LaTeX \)  Back to top [`<svg preserveAspectRatio="none" aria-hidden="true" role="img" viewBox="0 0 384 512" style="height:2em;width:2em;vertical-align:-0.125em;margin-left:auto;margin-right:auto;font-size:inherit;fill:steelblue;overflow:visible;position:relative;"><path d="M214.6 41.4c-12.5-12.5-32.8-12.5-45.3 0l-160 160c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L160 141.2V448c0 17.7 14.3 32 32 32s32-14.3 32-32V141.2L329.4 246.6c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3l-160-160z"/></svg>`{=html}](#) \1-->
 <p><a href="#top" style="color:steelblue;" >Back to top</a> <a
