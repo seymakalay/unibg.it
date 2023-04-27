@@ -61,7 +61,7 @@ library(fontawesome)
 ```
 
 
-## **Data Scientist**
+## **Scienziato dei Dati**
 
 <div class="my-right-figure">
 ```{r echo=FALSE, fig.cap = " ", out.width='75%', fig.align='right'}
@@ -69,13 +69,13 @@ knitr::include_graphics('images/logo.jpg')
 ```
 </div>
 
-__Background in:__   
+__Sfondo:__   
 
 * PhD in Economia Applicata e Management (AEM) presso
 <a href="https://www.unibg.it/ricerca/lavorare-ricerca/dottorati-ricerca/dottorati-ricerca/applied-economics-and-management" target="_blank">UNIBG</a> & 
 <a href="https://sites.google.com/unipv.it/phd-aem/home-page/people/alumni" target="_blank">UNIPV</a>.
 
-__Main Area of Interest:__   
+__Area di Interesse:__   
 
 * Estrai, trasforma e carica (ETL)
 * Visualizzazione e mappatura interattiva dei dati

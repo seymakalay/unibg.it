@@ -566,27 +566,27 @@ div.tocify {
 </div>
 
 
-<div id="this-page-is-under-construction" class="section level1">
-<h1>this page is under construction</h1>
-<div id="objectives" class="section level2">
-<h2>Objectives</h2>
+<div id="questa-pagina-è-in-costruzione." class="section level1">
+<h1>Questa pagina è in costruzione.</h1>
+<div id="obiettivi" class="section level2">
+<h2>Obiettivi</h2>
 <blockquote>
-<p>This tutorial is meant to introduce <a
-href="https://leafletjs.com/index.html">leafletjs</a> an open-source
-JavaScript library for mobile-friendly interactive maps, using a case
-study.</p>
+<p>Questo tutorial ha lo scopo di introdurre <a
+href="https://leafletjs.com/index.html">leafletjs</a> una libreria
+JavaScript open-source per mappe interattive ottimizzate per dispositivi
+mobili, utilizzando un caso di studio.</p>
 </blockquote>
 </div>
-<div id="simple-map" class="section level2">
-<h2>Simple Map</h2>
-<div id="loading-libraies" class="section level3">
-<h3>Loading Libraies</h3>
+<div id="mappa-semplice" class="section level2">
+<h2>Mappa semplice</h2>
+<div id="caricamento-librerie" class="section level3">
+<h3>Caricamento librerie</h3>
 <div class="sourceCode" id="cb1"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(leaflet)</span>
 <span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(dplyr)</span>
 <span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(raster)</span></code></pre></div>
 </div>
-<div id="get-polygon-data" class="section level3">
-<h3>Get Polygon Data</h3>
+<div id="ottieni-dati-poligonali" class="section level3">
+<h3>Ottieni Dati Poligonali</h3>
 <div class="sourceCode" id="cb2"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a>UK <span class="ot">&lt;-</span> <span class="fu">getData</span>(<span class="st">&quot;GADM&quot;</span>, <span class="at">country =</span>  <span class="st">&quot;GB&quot;</span>, <span class="at">level =</span> <span class="dv">2</span>)</span>
 <span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a>misc <span class="ot">=</span> <span class="fu">list</span>()</span>
@@ -594,14 +594,14 @@ study.</p>
 <span id="cb2-5"><a href="#cb2-5" aria-hidden="true" tabindex="-1"></a>UK <span class="ot">=</span> <span class="fu">do.call</span>(<span class="st">&quot;bind&quot;</span>, <span class="fu">lapply</span>(misc<span class="sc">$</span>countries, </span>
 <span id="cb2-6"><a href="#cb2-6" aria-hidden="true" tabindex="-1"></a>                                   <span class="cf">function</span>(x) <span class="fu">getData</span>(<span class="st">&#39;GADM&#39;</span>, <span class="at">country=</span>x, <span class="at">level=</span><span class="dv">0</span>)))</span></code></pre></div>
 </div>
-<div id="create-dummy-data" class="section level3">
-<h3>Create Dummy Data</h3>
+<div id="crea-dati-dummy" class="section level3">
+<h3>Crea Dati Dummy</h3>
 <div class="sourceCode" id="cb3"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="fu">set.seed</span>(<span class="dv">111</span>)</span>
 <span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a>mydf <span class="ot">&lt;-</span> <span class="fu">data.frame</span>(<span class="at">place =</span> <span class="fu">unique</span>(UK<span class="sc">$</span>NAME_0),</span>
 <span id="cb3-3"><a href="#cb3-3" aria-hidden="true" tabindex="-1"></a>                   <span class="at">value =</span> <span class="fu">sample.int</span>(<span class="at">n =</span> <span class="dv">1000000</span>, <span class="at">size =</span> <span class="fu">n_distinct</span>(UK<span class="sc">$</span>NAME_0), <span class="at">replace =</span> <span class="cn">TRUE</span>))</span></code></pre></div>
 </div>
-<div id="create-five-colors-for-fill" class="section level3">
-<h3>Create Five Colors For Fill</h3>
+<div id="crea-cinque-colori-per-il-riempimento" class="section level3">
+<h3>Crea cinque colori Per il Riempimento</h3>
 <div class="sourceCode" id="cb4"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a>mypal <span class="ot">&lt;-</span> <span class="fu">colorQuantile</span>(<span class="at">palette =</span> <span class="st">&quot;RdYlBu&quot;</span>, <span class="at">domain =</span> mydf<span class="sc">$</span>value, <span class="at">n =</span> <span class="dv">5</span>, <span class="at">reverse =</span> <span class="cn">TRUE</span>)</span>
 <span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb4-3"><a href="#cb4-3" aria-hidden="true" tabindex="-1"></a><span class="fu">leaflet</span>() <span class="sc">%&gt;%</span> </span>
@@ -618,7 +618,7 @@ study.</p>
 <center>
 <div class="figure">
 <img src="Simple.Map.png" style="width:60.0%" alt="" />
-<p class="caption">Simple Map</p>
+<p class="caption">Mappa semplice</p>
 </div>
 </center>
 <p><a href="#top" style="color:steelblue;" >Back to top</a> <a

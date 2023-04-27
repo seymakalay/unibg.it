@@ -16,17 +16,16 @@ library(fontawesome)
 ```     
 
 
-# this page is under construction
+# Questa pagina è in costruzione.
 
-## Objectives
+## Obiettivi
 
-> This tutorial is meant to introduce [leafletjs](https://leafletjs.com/index.html)  an open-source JavaScript library
-for mobile-friendly interactive maps, using a case study.
+> Questo tutorial ha lo scopo di introdurre [leafletjs](https://leafletjs.com/index.html) una libreria JavaScript open-source
+per mappe interattive ottimizzate per dispositivi mobili, utilizzando un caso di studio.
 
+## Mappa semplice
 
-## Simple Map
-
-### Loading Libraies 
+### Caricamento librerie
 
 ```r
 library(leaflet)
@@ -35,7 +34,7 @@ library(raster)
 ```
 
 
-### Get Polygon Data
+### Ottieni Dati Poligonali
 
 ```r
 UK <- getData("GADM", country =  "GB", level = 2)
@@ -48,14 +47,14 @@ UK = do.call("bind", lapply(misc$countries,
 ```
 
 
-### Create Dummy Data
+### Crea Dati Dummy
 ```r
 set.seed(111)
 mydf <- data.frame(place = unique(UK$NAME_0),
                    value = sample.int(n = 1000000, size = n_distinct(UK$NAME_0), replace = TRUE))
 ```
 
-### Create Five Colors For Fill
+### Crea cinque colori Per il Riempimento
 ```r
 mypal <- colorQuantile(palette = "RdYlBu", domain = mydf$value, n = 5, reverse = TRUE)
 
@@ -76,7 +75,7 @@ leaflet() %>%
 
 <center>
 
-![Simple Map](Simple.Map.png){width=60%}
+![Mappa semplice](Simple.Map.png){width=60%}
 </center>
 
 
