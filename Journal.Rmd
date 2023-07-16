@@ -91,6 +91,10 @@ contrazione.
 
 # Esperienze
 
+**Internship** - Market Research Assistant,\
+MPS - Evolving Marketing Research, Bergamo (Italia), Apr 2023 - July 2023.\
+- Analizzare i risultati delle ricerche di mercato creando database e statistiche descrittive.
+
 **Ricercatrice** - Statistiche,\
 Dipartimento di Scienze Economiche, Università degli Studi di Bergamo (Italia), Sept 2017- Feb 2022.\
 - Implementazione di manipolazioni di dati, applicazione di tecniche di machine learning, e creazione di
@@ -142,11 +146,13 @@ generazione di nuove soluzioni e ricerca sulle esigenze e preferenze dei clienti
     <li>&bull; HTML </li>
     <li>&bull; SQL </li>
     <li>&bull; Tableau </li>
+    <li>&bull; Power BI </li>
    <li> <u>*Conoscenza base di:*</u>  </li>
+   <li>&bull; DAX </li>
    <li>&bull; Python </li>
    <li>&bull; VBA </li>
    <li>&bull; Java </li>
-   <li>&bull; Power BI </li>
+   <li>&bull; Quantum </li>
 </ul>
 <!--\1 Latex, Microsoft Office, R, Shiny Application. \1-->
 <!--\1   <u>*New in:* </u> Html, Python, SQL, Java.\1-->
