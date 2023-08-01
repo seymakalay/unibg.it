@@ -139,7 +139,7 @@ generazione di nuove soluzioni e ricerca sulle esigenze e preferenze dei clienti
    <li> <u>**Computer:** </u>  </li>
    <li> <u>*Ottima conoscenza di:*</u>  </li>
    <li>&bull; R </li>
-   <li>&bull; Shiny Applications </li>
+   <li>&bull; R Shiny Applications </li>
    <li>&bull;  LaTeX </li>
    <li>&bull; Microsoft Office </li>
    <li> <u>*Conoscenza intermedia di:*</u>  </li>

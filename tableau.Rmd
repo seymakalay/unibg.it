@@ -76,15 +76,19 @@ vizElement.parentNode.insertBefore(scriptElement, vizElement);
 
 
 
-# Risuktato
+# Risultato
 
 ```{r echo=FALSE,fig.cap="**[TableauViz:](https://seymakalay.github.io/TableauViz/Map.html)** Click on TableauViz.", out.width='800px', out.lenght='800px', fig.align='left'}
 knitr::include_url("https://seymakalay.github.io/TableauViz/Map.html")
 ```
 
+
+<!--\1
 ```{r echo=FALSE,fig.cap="**[TableauViz:](https://seymakalay.github.io/TableauViz/Map.html)** Click on TableauViz.",  fig.align='left'}
 knitr::include_url("https://seymakalay.github.io/TableauViz/Map.html")
 ```
+\1-->
+
 <!-- out.width='800px', out.lenght='800px', \1-->
 
 
