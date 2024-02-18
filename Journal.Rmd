@@ -41,11 +41,15 @@ li {
 
 Indirizzo : Via Caniana, Bergamo-Lombardia-Italia\
 Cellulare : +39 338 9628589\
-E-mail e Skype: seymakalay@hotmail.com\
+E-mail e Skype: seymakalay@hotmail.com
+
+<!--\1 
+Place of Birth : Turkey-Istanbul\ 
+
 Stato civile : Celibe \
 Data di nascita : 16.05.1987\
 Patente di guida: B
-<!--\1 Place of Birth : Turkey-Istanbul\ \1-->
+\1-->
 
 <!--\1
 # Objectives
