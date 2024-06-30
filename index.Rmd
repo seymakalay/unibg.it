@@ -77,12 +77,14 @@ __Sfondo:__
 
 __Area di Interesse:__   
 
+* Manipolazioni dei dati
 * Estrai, trasforma e carica (ETL)
 * Visualizzazione e mappatura interattiva dei dati
-* Narrazione dei dati
+* Racconto dei dati
 * Intelligenza aziendale
 * Implementazione di algoritmi di apprendimento automatico
 * Costruire interfacce utente interattive ([`r fa("github", fill = "purple")`](https://github.com/seymakalay))
+
 
 
 
