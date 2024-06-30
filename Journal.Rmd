@@ -76,8 +76,10 @@ Dipartimento di Scienze Economiche e Statistiche, Università degli Studi di Sie
 **Certificate in Masters of Business Administration Program**\
 College of Business, University of Auburn (USA), Primavera 2011 - Autunno 2012\
 
-**Laurea Triennale in Astronomia e Scienze Spaziali**\
+**Laurea Triennale in Fisica **\
 Dipartimento di Scienze, Università degli Studi di Istanbul (Turchia)        
+ 
+ <!--\1 Astronomia e Scienze Spaziali**\ \1-->
 
 # Tesi di Dottorato
 
@@ -94,6 +96,17 @@ contrazione.
 
 
 # Esperienze
+
+
+
+
+**Internship** - Market Research Assistant,\
+Mozarc Medical, Milano (Italia), Sep 2023 - Current.\
+- Analisi e visualizzazione dei dati: assistenza nella raccolta, pulizia e analisi di set di dati di grandi
+dimensioni per identificare tendenze, modelli e approfondimenti. Sviluppa dashboard e report visivamente
+accattivanti utilizzando Power BI per comunicare in modo efficace i risultati alle parti interessate.
+
+
 
 **Internship** - Market Research Assistant,\
 MPS - Evolving Marketing Research, Bergamo (Italia), Apr 2023 - July 2023.\
@@ -142,21 +155,22 @@ generazione di nuove soluzioni e ricerca sulle esigenze e preferenze dei clienti
 <ul class="list-inline">
    <li> <u>**Computer:** </u>  </li>
    <li> <u>*Ottima conoscenza di:*</u>  </li>
+   <li>&bull; DAX </li>
+   <li>&bull; Power BI/ Query/Pivot </li>
    <li>&bull; R </li>
    <li>&bull; R Shiny Applications </li>
    <li>&bull;  LaTeX </li>
    <li>&bull; Microsoft Office </li>
    <li> <u>*Conoscenza intermedia di:*</u>  </li>
     <li>&bull; HTML </li>
+    <li>&bull; Python </li>
     <li>&bull; SQL </li>
     <li>&bull; Tableau </li>
-    <li>&bull; Power BI </li>
    <li> <u>*Conoscenza base di:*</u>  </li>
-   <li>&bull; DAX </li>
-   <li>&bull; Python </li>
    <li>&bull; VBA </li>
    <li>&bull; Java </li>
-   <li>&bull; Quantum </li>
+   <li>&bull; Json </li>
+   <li>&bull; Snowflake</li>
 </ul>
 <!--\1 Latex, Microsoft Office, R, Shiny Application. \1-->
 <!--\1   <u>*New in:* </u> Html, Python, SQL, Java.\1-->
