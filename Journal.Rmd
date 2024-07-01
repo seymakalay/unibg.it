@@ -186,7 +186,7 @@ generazione di nuove soluzioni e ricerca sulle esigenze e preferenze dei clienti
 # Projects
 
 <u>**Interactive User Interfaces**</u>
-<li><u><a href="https://seymakalay87.shinyapps.io/Mapapp/" target="_blank">**MappApp:**</a></u> 
+<li><u><a href="https://seymakalay87.shinyapps.io/MapApp/" target="_blank">**MapApp:**</a></u> 
 Condurre uno studio empirico utilizzando algoritmi di machine learning sia supervisionati
 che non supervisionati. </li>
 
