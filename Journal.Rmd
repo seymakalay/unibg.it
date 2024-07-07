@@ -72,8 +72,10 @@ Dipartimento di Scienze Economiche, Università degli Studi di Bergamo (Italia),
 **Laurea Magistrale in Finanza**\
 Dipartimento di Scienze Economiche e Statistiche, Università degli Studi di Siena (Italia),  Nov 2013 - June 2016
 
+<!--\1
 **Certificate in Masters of Business Administration Program**\
 College of Business, University of Auburn (USA), Primavera 2011 - Autunno 2012\
+\1-->
 
 **Laurea Triennale in Fisica **\
 Dipartimento di Scienze, Università degli Studi di Istanbul (Turchia)        
@@ -100,13 +102,13 @@ contrazione.
 
 
 **Associate Advanced Analytics Analyst** - Power BI Developer,\
-Mozarc Medical, Milano (Italia), Sep 2023 - Current.\
+Mozarc Medical, Milano (Italia), Sep 2023 - Attuale.\
 - Analisi e visualizzazione dei dati: Assistenza nella raccolta, pulizia e analisi di set di dati di grandi
 dimensioni per identificare tendenze, modelli e approfondimenti. Sviluppo di dashboard e report visivamente
 accattivanti utilizzando Power BI per comunicare in modo efficace i risultati alle parti interessate.
 
 
-**Internship** - Market Research Assistant,\
+**Assistant** - Market Research,\
 MPS - Evolving Marketing Research, Bergamo (Italia), Apr 2023 - July 2023.\
 - Analizzare i risultati delle ricerche di mercato creando database e statistiche descrittive.
 
@@ -200,6 +202,8 @@ Revisione della letteratura bibliometrica riproducibile.</li>
 <li><u><a href="https://public.tableau.com/app/profile/seyma.kalay" target="_blank">**Tableau:**</a></u> 
 Condurre la visualizzazione dei dati utilizzando Tableau Destop.</li>
 
+<li><u><a href="https://seymakalay.github.io/unibg/powerbi.html" target="_blank">**Power BI:**</a></u> 
+Progetti su cui ho lavorato.</li>
 
 <u>**HTML**</u>
 <li><u><a href="https://seymakalay.github.io/TableauViz/index.html" target="_blank">**TableauViz**</a></u> 
