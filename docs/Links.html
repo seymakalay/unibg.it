@@ -13,7 +13,7 @@
 
 <title>Resources</title>
 
-<script src="site_libs/header-attrs-2.16/header-attrs.js"></script>
+<script src="site_libs/header-attrs-2.27/header-attrs.js"></script>
 <script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link href="site_libs/bootstrap-3.3.5/css/bootstrap.min.css" rel="stylesheet" />
@@ -32,8 +32,8 @@
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
 <link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
 <script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
-<link href="site_libs/font-awesome-5.1.0/css/all.css" rel="stylesheet" />
-<link href="site_libs/font-awesome-5.1.0/css/v4-shims.css" rel="stylesheet" />
+<link href="site_libs/font-awesome-6.4.2/css/all.min.css" rel="stylesheet" />
+<link href="site_libs/font-awesome-6.4.2/css/v4-shims.min.css" rel="stylesheet" />
 
 <style type="text/css">
   code{white-space: pre-wrap;}
@@ -180,8 +180,8 @@ $(document).ready(function () {
   border-radius: 4px;
 }
 
-.tabset-dropdown > .nav-tabs > li.active:before {
-  content: "";
+.tabset-dropdown > .nav-tabs > li.active:before, .tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "\e259";
   font-family: 'Glyphicons Halflings';
   display: inline-block;
   padding: 10px;
@@ -189,16 +189,9 @@ $(document).ready(function () {
 }
 
 .tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
-  content: "&#xe258;";
-  border: none;
-}
-
-.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
-  content: "";
+  content: "\e258";
   font-family: 'Glyphicons Halflings';
-  display: inline-block;
-  padding: 10px;
-  border-right: 1px solid #ddd;
+  border: none;
 }
 
 .tabset-dropdown > .nav-tabs > li.active {
@@ -269,17 +262,17 @@ $(document).ready(function () {
   <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
     <span class="fa fa-box"></span>
      
-    Packages
+    Pacchetti
      
     <span class="caret"></span>
   </a>
   <ul class="dropdown-menu" role="menu">
-    <li class="dropdown-header">Machine Learning</li>
+    <li class="dropdown-header">Apprendimento Automatico</li>
     <li>
       <a href="https://github.com/seymakalay/pomodoro">pomodoro</a>
     </li>
     <li class="divider"></li>
-    <li class="dropdown-header">Data Visualization</li>
+    <li class="dropdown-header">Visualizzazione Dati</li>
     <li>
       <a href="https://github.com/seymakalay/pepe">pepe</a>
     </li>
@@ -289,17 +282,17 @@ $(document).ready(function () {
   <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
     <span class="fa fa-rocket"></span>
      
-    Tutorials
+    Tutorial
      
     <span class="caret"></span>
   </a>
   <ul class="dropdown-menu" role="menu">
-    <li class="dropdown-header">Machine Learning</li>
+    <li class="dropdown-header">Apprendimento Automatico</li>
     <li>
       <a href="pomodoro.tutorial.html">pomodoro</a>
     </li>
     <li class="divider"></li>
-    <li class="dropdown-header">Data Visualization</li>
+    <li class="dropdown-header">Visualizzazione Dati</li>
     <li>
       <a href="pepe.tutorial.html">pepe</a>
     </li>
@@ -314,12 +307,12 @@ $(document).ready(function () {
     <span class="caret"></span>
   </a>
   <ul class="dropdown-menu" role="menu">
-    <li class="dropdown-header">Mapping</li>
+    <li class="dropdown-header">Mappatura</li>
     <li>
-      <a href="MapApp.html">Simple Map</a>
+      <a href="MapApp.html">Mappa semplice</a>
     </li>
     <li class="divider"></li>
-    <li class="dropdown-header">Visualization</li>
+    <li class="dropdown-header">Visualizzazione</li>
     <li>
       <a href="VisualApp.html">Plot</a>
     </li>
@@ -330,6 +323,13 @@ $(document).ready(function () {
     <span class="fa fa-star"></span>
      
     Tableau
+  </a>
+</li>
+<li>
+  <a href="powerbi.html">
+    <span class="fa fa-chart-bar"></span>
+     
+    Power BI
   </a>
 </li>
       </ul>
@@ -357,21 +357,39 @@ $(document).ready(function () {
   <ul class="dropdown-menu" role="menu">
     <li class="dropdown-header">CVs</li>
     <li>
-      <a href="./SK_Cover.pdf">English CV</a>
+      <a href="./SK_CV_Eng.pdf">English CV</a>
     </li>
     <li>
-      <a href="./SK_Cover_it.pdf">Italian CV</a>
+      <a href="./SK_CV_Ita.pdf">Italian CV</a>
     </li>
     <li class="divider"></li>
-    <li class="dropdown-header">Docs</li>
+    <li class="dropdown-header">Certificates</li>
     <li>
-      <a href="./images/Certificates.pdf">Certificates</a>
+      <a href="./images/AU_Business.pdf">Auburn Business</a>
+    </li>
+    <li>
+      <a href="./images/Python4_Data_Analysis.pdf">Python</a>
+    </li>
+    <li>
+      <a href="./images/CourseraPowerBi.pdf">Power Bi</a>
+    </li>
+    <li>
+      <a href="./images/CourseraSQL.pdf">SQL</a>
+    </li>
+    <li>
+      <a href="./images/CourseraAzure.pdf">Azure</a>
     </li>
   </ul>
 </li>
 <li>
   <a href="https://www.linkedin.com/in/seyma-kalay-3315345b/">
     <span class="fab fa-linkedin fa-lg"></span>
+     
+  </a>
+</li>
+<li>
+  <a href="https://seymakalay.github.io/unibg/index.html">
+    <span class="fa fa-globe"></span>
      
   </a>
 </li>
