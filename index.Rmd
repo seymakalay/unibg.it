@@ -86,6 +86,11 @@ __Area di Interesse:__
 * Costruire interfacce utente interattive ([`r fa("github", fill = "purple")`](https://github.com/seymakalay))
 
 
+---
+
+La pagina web è stata creata con [`r fa("r-project", fill = "steelblue")`](https://www.rstudio.com),
+ospitato da [`r fa("github", fill = "purple")`](https://docs.github.com/en/github/working-with-github-pages/about-github-pages), e ultimo compilato `r Sys.Date()`.
+<!--\1  `r Sys.Date()`. \1-->
 
 
 
@@ -166,11 +171,6 @@ and **<a href="https://github.com/seymakalay/pepe" target="_blank"> pepe </a>** 
 \1-->
 
 
----
-
-La pagina web è stata creata con [`r fa("r-project", fill = "steelblue")`](https://www.rstudio.com),
-ospitato da [`r fa("github", fill = "purple")`](https://docs.github.com/en/github/working-with-github-pages/about-github-pages), e ultimo compilato `r Sys.Date()`.
-<!--\1  `r Sys.Date()`. \1-->
 
 
 
