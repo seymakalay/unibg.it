@@ -102,7 +102,7 @@ contrazione.
 
 
 **Associate Advanced Analytics Analyst** - Power BI Developer,\
-Mozarc Medical, Milano (Italia), Sep 2023 - Attuale.\
+<u>Mozarc Medical, Milano (Italia), Sep 2023 - Attuale.</u>\
  <!--\1 - Analisi e visualizzazione dei dati: Assistenza nella raccolta, pulizia e analisi di set di dati di grandi
 dimensioni per identificare tendenze, modelli e approfondimenti. Sviluppo di dashboard e report visivamente
 accattivanti utilizzando Power BI per comunicare in modo efficace i risultati alle parti interessate.
@@ -123,7 +123,7 @@ accattivanti utilizzando Power BI per comunicare in modo efficace i risultati al
 
 
 **Assistant** - Market Research,\
-MPS - Evolving Marketing Research, Bergamo (Italia), Apr 2023 - July 2023.\
+<u>MPS - Evolving Marketing Research, Bergamo (Italia), Apr 2023 - July 2023.</u>\
 <!--\1 - Analizzare i risultati delle ricerche di mercato creando database e statistiche descrittive.\1--> 
 <body>
     <ul>
@@ -133,7 +133,7 @@ MPS - Evolving Marketing Research, Bergamo (Italia), Apr 2023 - July 2023.\
 </body>
 
 **Ricercatrice** - Statistiche,\
-Dipartimento di Scienze Economiche, Università degli Studi di Bergamo (Italia), Sept 2017- Feb 2022.\
+<u>Dipartimento di Scienze Economiche, Università degli Studi di Bergamo (Italia), Sept 2017- Feb 2022.</u>\
 <!--\1 - Implementazione di manipolazioni di dati, applicazione di tecniche di machine learning, e creazione di
 applicazioni interattive^[si prega di consultare i repository GitHub su: <a href="https://github.com/seymakalay" target="_blank">https://github.com/seymakalay</a> ].\1--> 
 <body>
@@ -148,7 +148,7 @@ applicazioni interattive^[si prega di consultare i repository GitHub su: <a href
  to find out the probability of credit default\1-->
 
 **Internship** - Portafoglio,\
-Ziraat Portafoglio, Istanbul (Turchia), Jan 2016 - Sept 2016.\
+<u>Ziraat Portafoglio, Istanbul (Turchia), Jan 2016 - Sept 2016.</u>\
 <!--\1 - Osservazione del mercato azionario e obbligazionario e creazione di un modello statistico per la massimalizzazione del rendimento e dimostrazione dell’efficenza del modello per mezzo della monitorizzazione
 dei dati.\ \1--> 
 <body>
@@ -160,8 +160,8 @@ dei dati.\ \1-->
     </ul>
 </body>
 
-**Internship** - Portafoglio,\ 
-Invest-AZ, Istanbul (Turchia), Nov 2015 - Dec 2015.\
+**Internship** - Portafoglio,\
+<u>Invest-AZ, Istanbul (Turchia), Nov 2015 - Dec 2015.</u>\
 <!--\1  - Analisi delle società tramite l’osservazione dei conti e dei bilanci per comprendere il vantaggio ricavato
 dall’investire nelle stesse.\1-->
 <body>
@@ -173,7 +173,7 @@ dall’investire nelle stesse.\1-->
 
 
 **Internship** - Contabilità,\
-Varkan Group, Istanbul (Turchia), Sept 2012 - Dec 2012.\
+<u>Varkan Group, Istanbul (Turchia), Sept 2012 - Dec 2012.</u>\
 <!--\1 - Responsabile della registrazione del ciclo contabile attraverso il controllo dei saldi coerenti sia dei fornitori
 che degli acquirenti.\1--> 
 <body>
