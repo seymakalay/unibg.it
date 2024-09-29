@@ -103,38 +103,85 @@ contrazione.
 
 **Associate Advanced Analytics Analyst** - Power BI Developer,\
 Mozarc Medical, Milano (Italia), Sep 2023 - Attuale.\
-- Analisi e visualizzazione dei dati: Assistenza nella raccolta, pulizia e analisi di set di dati di grandi
+ <!--\1 - Analisi e visualizzazione dei dati: Assistenza nella raccolta, pulizia e analisi di set di dati di grandi
 dimensioni per identificare tendenze, modelli e approfondimenti. Sviluppo di dashboard e report visivamente
 accattivanti utilizzando Power BI per comunicare in modo efficace i risultati alle parti interessate.
+\1-->
+<body>
+  <ul>
+    <li> Aiutare a raccogliere, pulire e analizzare grandi set di dati per identificare tendenze e approfondimenti.</li>
+    <li> Sviluppare dashboard e report visivamente accattivanti utilizzando Power BI, Power Pivot e DAX.</li>
+    <li> Collaborare a stretto contatto con team interfunzionali per comprendere le loro esigenze analitiche e fornire approfondimenti.</li>
+    <li> Sviluppare strategie e raccomandazioni basate sui dati per supportare la crescita e l‘efficienza aziendale.</li>
+    <li> Garantire la qualità e l‘integrità dei dati eseguendo la convalida e la pulizia dei dati.</li>
+    <li> Aiutare a gestire i repository di dati.</li>
+    <li> Implementare pratiche di governance dei dati per garantire accuratezza, coerenza e sicurezza.</li>
+    <li> Collaborare efficacemente con i membri del team nei vari reparti.</li>
+    <li> Comunicare metodologie di risultati analitici e raccomandazioni alle parti interessate.</li>
+  </ul>
+</body>
 
 
 **Assistant** - Market Research,\
 MPS - Evolving Marketing Research, Bergamo (Italia), Apr 2023 - July 2023.\
-- Analizzare i risultati delle ricerche di mercato creando database e statistiche descrittive.
+<!--\1 - Analizzare i risultati delle ricerche di mercato creando database e statistiche descrittive.\1--> 
+<body>
+    <ul>
+      <li> Preparare un sondaggio di ricerca di mercato.</li> 
+      <li> Analizzare e segnalare i risultati della ricerca di mercato, utilizzando Quantum Software.</li> 
+    </ul>
+</body>
 
 **Ricercatrice** - Statistiche,\
 Dipartimento di Scienze Economiche, Università degli Studi di Bergamo (Italia), Sept 2017- Feb 2022.\
-- Implementazione di manipolazioni di dati, applicazione di tecniche di machine learning, e creazione di
-applicazioni interattive^[si prega di consultare i repository GitHub su: <a href="https://github.com/seymakalay" target="_blank">https://github.com/seymakalay</a> ].
-
+<!--\1 - Implementazione di manipolazioni di dati, applicazione di tecniche di machine learning, e creazione di
+applicazioni interattive^[si prega di consultare i repository GitHub su: <a href="https://github.com/seymakalay" target="_blank">https://github.com/seymakalay</a> ].\1--> 
+<body>
+    <ul>
+      <li> Manipolare e analizzare grandi set di dati per identificare tendenze e approfondimenti.</li>
+      <li> Sviluppare e implementare modelli e algoritmi di apprendimento automatico, utilizzando R e Python.</li>
+      <li> Adottare nuovi strumenti, tecnologie e metodologie per migliorare i risultati del modello.</li>
+      <li> Creare volti utente interattivi (come R Shiny, HTML) per segnalare i risultati.</li>
+    </ul>
+</body>
  <!--\1 application^[Please see at: https://github.com/seymakalay].\      
  to find out the probability of credit default\1-->
 
 **Internship** - Portafoglio,\
 Ziraat Portafoglio, Istanbul (Turchia), Jan 2016 - Sept 2016.\
-- Osservazione del mercato azionario e obbligazionario e creazione di un modello statistico per la massimalizzazione del rendimento e dimostrazione dell’efficenza del modello per mezzo della monitorizzazione
-dei dati.\
+<!--\1 - Osservazione del mercato azionario e obbligazionario e creazione di un modello statistico per la massimalizzazione del rendimento e dimostrazione dell’efficenza del modello per mezzo della monitorizzazione
+dei dati.\ \1--> 
+<body>
+    <ul>
+      <li> Osservare il mercato azionario e obbligazionario.</li>
+      <li> Avere familiarità con la finanza comportamentale.</li>
+      <li> Creare un modello statistico per massimizzare il rendimento del portafoglio, utilizzando VBA.</li>
+      <li> Dimostrare l’efficienza del modello monitorando i dati.</li>
+    </ul>
+</body>
 
 **Internship** - Portafoglio,\ 
 Invest-AZ, Istanbul (Turchia), Nov 2015 - Dec 2015.\
-- Analisi delle società tramite l’osservazione dei conti e dei bilanci per comprendere il vantaggio ricavato
-dall’investire nelle stesse.
+<!--\1  - Analisi delle società tramite l’osservazione dei conti e dei bilanci per comprendere il vantaggio ricavato
+dall’investire nelle stesse.\1-->
+<body>
+    <ul>
+      <li> Analizzare le aziende esaminando i loro rendiconti finanziari e bilanci.</li>
+      <li> Creare report per guidare il processo decisionale basato sui dati per gli investitori.</li>
+    </ul>
+</body>
 
 
 **Internship** - Contabilità,\
 Varkan Group, Istanbul (Turchia), Sept 2012 - Dec 2012.\
-- Responsabile della registrazione del ciclo contabile attraverso il controllo dei saldi coerenti sia dei fornitori
-che degli acquirenti.
+<!--\1 - Responsabile della registrazione del ciclo contabile attraverso il controllo dei saldi coerenti sia dei fornitori
+che degli acquirenti.\1--> 
+<body>
+    <ul>
+      <li> Registrare il ciclo contabile e continuare a monitorare i saldi coerenti sia sui fornitori che sugli acquirenti nel sistema aziendale.</li>
+      <li> Monitorare i saldi sia sui fornitori che sugli acquirenti nel sistema aziendale.</li>
+    </ul>
+</body>
 
 <!--\1 
 **Part time** -  Immobiliare,\
@@ -151,7 +198,9 @@ generazione di nuove soluzioni e ricerca sulle esigenze e preferenze dei clienti
    <li> <u>**Lingue:**</u>  </li>
    <li>&bull; Nativo in Turco </li>
    <li>&bull; Ottimo in Inglese </li>
-   <li>&bull; Intermedio in Italiano </li>
+   <li>&bull; Avanzato in Italiano </li>
+   <li>&bull; Base in Spagnola.</li>
+
 </ul>
 <ul class="list-inline">
    <li> <u>**Computer:** </u>  </li>
@@ -168,6 +217,7 @@ generazione di nuove soluzioni e ricerca sulle esigenze e preferenze dei clienti
     <li>&bull; SQL </li>
     <li>&bull; Tableau </li>
    <li> <u>*Conoscenza base di:*</u>  </li>
+    <li>&bull; Azure </li>
    <li>&bull; VBA </li>
    <li>&bull; Java </li>
    <li>&bull; Json </li>
