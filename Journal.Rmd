@@ -117,7 +117,7 @@ accattivanti utilizzando Power BI per comunicare in modo efficace i risultati al
     <li> Aiutare a gestire i repository di dati.</li>
     <li> Implementare pratiche di governance dei dati per garantire accuratezza, coerenza e sicurezza.</li>
     <li> Collaborare efficacemente con i membri del team nei vari reparti.</li>
-    <li> Comunicare metodologie di risultati analitici e raccomandazioni alle parti interessate.</li>
+    <li> Comunicare risultati analitici, metodologie, e raccomandazioni alle parti interessate.</li>
   </ul>
 </body>
 
@@ -153,7 +153,7 @@ applicazioni interattive^[si prega di consultare i repository GitHub su: <a href
 dei dati.\ \1--> 
 <body>
     <ul>
-      <li> Osservare il mercato azionario e obbligazionario.</li>
+      <li> Osservare il mercato azionario.</li>
       <li> Avere familiarità con la finanza comportamentale.</li>
       <li> Creare un modello statistico per massimizzare il rendimento del portafoglio, utilizzando VBA.</li>
       <li> Dimostrare l’efficienza del modello monitorando i dati.</li>
@@ -166,7 +166,7 @@ dei dati.\ \1-->
 dall’investire nelle stesse.\1-->
 <body>
     <ul>
-      <li> Analizzare le aziende esaminando i loro rendiconti finanziari e bilanci.</li>
+      <li> Analizzare le società quotate esaminandone i bilanci.</li>
       <li> Creare report per guidare il processo decisionale basato sui dati per gli investitori.</li>
     </ul>
 </body>
