@@ -49,7 +49,6 @@ E divide il set di dati in set di treno/test 80/20,
 utilizzando un campionamento casuale stratificato e implementa 10 convalide incrociate per ciascun modello.
 
 
-
 ### Installation
 
 Puoi installare `pomodoro` da [CRAN](https://CRAN.R-project.org) con:
