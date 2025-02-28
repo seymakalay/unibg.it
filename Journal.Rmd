@@ -80,6 +80,7 @@ Dipartimento di Scienze, Università degli Studi di Istanbul (Turchia)
  
  <!--\1 Astronomia e Scienze Spaziali**\ \1-->
 
+ <!--\1
 # Tesi di Dottorato
 
 **Accesso al Credito, Utilizzando Tecniche di Apprendimento Automatico**\
@@ -92,7 +93,7 @@ apprendimento automatico e creazione di applicazioni interattive.
 **Pesi di Portafoglio Ottimali Utilizzando la Teoria del Portafoglio di Markowitz.**\
 Trovare i pesi ottimali del portafoglio azionario, utilizzando sia la matrice di covarianza che quella di
 contrazione.
-
+\1-->
 
 # Esperienze
 
