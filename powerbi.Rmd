@@ -6,7 +6,11 @@ output:
     toc_float: TRUE
     theme: flatly
     highlight: tango
+#header-includes:
+#- \usepackage{caption}  
+   #  - \usepackage{placeins}
 ---
+
 
 
 ```{r setup, include=FALSE}
@@ -21,6 +25,19 @@ library(kableExtra)
 library(dplyr)
 library(xtable)
 ```     
+
+
+```{css bullet-margin, echo = FALSE}
+
+li {
+    content:attr(aria-label);
+    font-size:100%;
+    margin-right:-10px;
+}
+
+``` 
+
+
 
 <!--\1  <span style="color:red">pomodoro</span> \1-->
 <!--\1   \1-->

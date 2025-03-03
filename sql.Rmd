@@ -13,6 +13,17 @@ output:
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
+```{css bullet-margin, echo = FALSE}
+
+li {
+    content:attr(aria-label);
+    font-size:100%;
+    margin-right:-10px;
+}
+
+``` 
+
+
 
 
 <!--\1  <span style="color:red">pomodoro</span> \1-->

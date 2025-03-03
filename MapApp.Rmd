@@ -15,6 +15,16 @@ output:
 library(fontawesome)
 ```     
 
+```{css bullet-margin, echo = FALSE}
+
+li {
+    content:attr(aria-label);
+    font-size:100%;
+    margin-right:-10px;
+}
+
+``` 
+
 
 # Questa pagina è in costruzione.
 
