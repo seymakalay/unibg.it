@@ -39,7 +39,7 @@ li {
 
 # Informazione personale
 
-Indirizzo : Via Caniana, Bergamo-Lombardia-Italia\
+Indirizzo : Lombardia-Italia\
 E-mail e Skype: seymakalay@hotmail.com\
 Patente di guida: B
 <!--\1 
