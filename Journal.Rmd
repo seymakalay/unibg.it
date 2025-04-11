@@ -108,12 +108,12 @@ accattivanti utilizzando Power BI per comunicare in modo efficace i risultati al
 \1-->
 <body>
   <ul>
-    <li> Aiutare a raccogliere, pulire e analizzare grandi set di dati per identificare tendenze e approfondimenti.</li>
-    <li> Sviluppare dashboard e report visivamente accattivanti utilizzando Power BI, Power Pivot, Power Automate, SQL, e DAX.</li>
+    <li> Raccogliere, pulire e analizzare grandi set di dati per identificare tendenze e approfondimenti.</li>
+    <li> Sviluppare dashboard e report visivamente accattivanti utilizzando Power BI/Pivot/Query/Automate, SQL, e DAX.</li>
     <li> Collaborare a stretto contatto con team interfunzionali per comprendere le loro esigenze analitiche e fornire approfondimenti.</li>
     <li> Sviluppare strategie e raccomandazioni basate sui dati per supportare la crescita e l‘efficienza aziendale.</li>
     <li> Garantire la qualità e l‘integrità dei dati eseguendo la convalida e la pulizia dei dati.</li>
-    <li> Aiutare a gestire i repository di dati.</li>
+    <li> Gestire i repository dei dati.</li>
     <li> Implementare pratiche di governance dei dati per garantire accuratezza, coerenza e sicurezza.</li>
     <li> Collaborare efficacemente con i membri del team nei vari reparti.</li>
     <li> Comunicare risultati analitici, metodologie, e raccomandazioni alle parti interessate.</li>
